@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 561}}";
 			sepNavSelRange = "{790, 0}";
 			sepNavVisRange = "{0, 923}";
 		};
 	};
 	1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 2338}}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 2366}}";
 			sepNavSelRange = "{794, 0}";
-			sepNavVisRange = "{0, 1626}";
+			sepNavVisRange = "{147, 1260}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* TimeClock */ = {
@@ -46,7 +46,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						64.080078,
+						65.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -67,7 +67,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {1008, 220}}",
-							"{{0, 225}, {1008, 508}}",
+							"{{0, 225}, {1008, 328}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -76,8 +76,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {214, 218}}",
-							"{{219, 0}, {437, 218}}",
+							"{{0, 0}, {215, 218}}",
+							"{{220, 0}, {438, 218}}",
 						);
 					};
 				};
@@ -166,7 +166,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						174.570801,
+						175.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -174,7 +174,7 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-173, -31}, {993, 493}}";
+				"xdesign model diagram view visible rect key" = "{{-173, 0}, {993, 313}}";
 			};
 		};
 	};
@@ -241,6 +241,271 @@
 		};
 		perUserProjectItems = {
 			774013E8107ECBCB00DB5136 /* PBXTextBookmark */ = 774013E8107ECBCB00DB5136 /* PBXTextBookmark */;
+			77401428107F634B00DB5136 /* PBXTextBookmark */ = 77401428107F634B00DB5136 /* PBXTextBookmark */;
+			77401429107F634B00DB5136 /* PBXTextBookmark */ = 77401429107F634B00DB5136 /* PBXTextBookmark */;
+			7740142A107F634B00DB5136 /* PBXTextBookmark */ = 7740142A107F634B00DB5136 /* PBXTextBookmark */;
+			7740142B107F634B00DB5136 /* PBXTextBookmark */ = 7740142B107F634B00DB5136 /* PBXTextBookmark */;
+			7740142C107F634B00DB5136 /* PBXTextBookmark */ = 7740142C107F634B00DB5136 /* PBXTextBookmark */;
+			7740142D107F634B00DB5136 /* PBXTextBookmark */ = 7740142D107F634B00DB5136 /* PBXTextBookmark */;
+			7740142E107F634B00DB5136 /* PBXTextBookmark */ = 7740142E107F634B00DB5136 /* PBXTextBookmark */;
+			7740142F107F634B00DB5136 /* PBXTextBookmark */ = 7740142F107F634B00DB5136 /* PBXTextBookmark */;
+			77401430107F634B00DB5136 /* PBXTextBookmark */ = 77401430107F634B00DB5136 /* PBXTextBookmark */;
+			77401431107F634B00DB5136 /* PBXTextBookmark */ = 77401431107F634B00DB5136 /* PBXTextBookmark */;
+			77401433107F634B00DB5136 /* PBXTextBookmark */ = 77401433107F634B00DB5136 /* PBXTextBookmark */;
+			77401434107F634B00DB5136 /* PBXTextBookmark */ = 77401434107F634B00DB5136 /* PBXTextBookmark */;
+			77401435107F634B00DB5136 /* XDModelBookmark */ = 77401435107F634B00DB5136 /* XDModelBookmark */;
+			77401436107F634B00DB5136 /* PBXTextBookmark */ = 77401436107F634B00DB5136 /* PBXTextBookmark */;
+			77401437107F634B00DB5136 /* PBXTextBookmark */ = 77401437107F634B00DB5136 /* PBXTextBookmark */;
+			77401438107F634B00DB5136 /* PBXTextBookmark */ = 77401438107F634B00DB5136 /* PBXTextBookmark */;
+			77401439107F634B00DB5136 /* PBXTextBookmark */ = 77401439107F634B00DB5136 /* PBXTextBookmark */;
+			7740143A107F634B00DB5136 /* XDModelBookmark */ = 7740143A107F634B00DB5136 /* XDModelBookmark */;
+			7740143B107F634B00DB5136 /* PBXTextBookmark */ = 7740143B107F634B00DB5136 /* PBXTextBookmark */;
+			7740143C107F634B00DB5136 /* XDModelBookmark */ = 7740143C107F634B00DB5136 /* XDModelBookmark */;
+			7740143D107F634B00DB5136 /* PBXTextBookmark */ = 7740143D107F634B00DB5136 /* PBXTextBookmark */;
+			7740143E107F634B00DB5136 /* PBXTextBookmark */ = 7740143E107F634B00DB5136 /* PBXTextBookmark */;
+			7740143F107F634B00DB5136 /* PBXTextBookmark */ = 7740143F107F634B00DB5136 /* PBXTextBookmark */;
+			77401440107F634B00DB5136 /* PBXTextBookmark */ = 77401440107F634B00DB5136 /* PBXTextBookmark */;
+			77401441107F634B00DB5136 /* PBXTextBookmark */ = 77401441107F634B00DB5136 /* PBXTextBookmark */;
+			77401442107F634B00DB5136 /* PBXTextBookmark */ = 77401442107F634B00DB5136 /* PBXTextBookmark */;
+			77401443107F634B00DB5136 /* PBXTextBookmark */ = 77401443107F634B00DB5136 /* PBXTextBookmark */;
+			77401444107F634B00DB5136 /* PBXTextBookmark */ = 77401444107F634B00DB5136 /* PBXTextBookmark */;
+			77401445107F634B00DB5136 /* PBXTextBookmark */ = 77401445107F634B00DB5136 /* PBXTextBookmark */;
+			77401446107F634B00DB5136 /* PBXTextBookmark */ = 77401446107F634B00DB5136 /* PBXTextBookmark */;
+			77401447107F634B00DB5136 /* PBXTextBookmark */ = 77401447107F634B00DB5136 /* PBXTextBookmark */;
+			77401448107F634B00DB5136 /* PBXTextBookmark */ = 77401448107F634B00DB5136 /* PBXTextBookmark */;
+			77401449107F634B00DB5136 /* PBXTextBookmark */ = 77401449107F634B00DB5136 /* PBXTextBookmark */;
+			7740144A107F634B00DB5136 /* PBXTextBookmark */ = 7740144A107F634B00DB5136 /* PBXTextBookmark */;
+			7740144B107F634B00DB5136 /* PBXTextBookmark */ = 7740144B107F634B00DB5136 /* PBXTextBookmark */;
+			7740144C107F634B00DB5136 /* PBXTextBookmark */ = 7740144C107F634B00DB5136 /* PBXTextBookmark */;
+			7740144D107F634B00DB5136 /* PBXTextBookmark */ = 7740144D107F634B00DB5136 /* PBXTextBookmark */;
+			7740144E107F634B00DB5136 /* PBXTextBookmark */ = 7740144E107F634B00DB5136 /* PBXTextBookmark */;
+			7740144F107F634B00DB5136 /* PBXTextBookmark */ = 7740144F107F634B00DB5136 /* PBXTextBookmark */;
+			77401450107F634B00DB5136 /* PBXTextBookmark */ = 77401450107F634B00DB5136 /* PBXTextBookmark */;
+			77401451107F634B00DB5136 /* PBXTextBookmark */ = 77401451107F634B00DB5136 /* PBXTextBookmark */;
+			77401452107F634B00DB5136 /* PBXTextBookmark */ = 77401452107F634B00DB5136 /* PBXTextBookmark */;
+			77401453107F634B00DB5136 /* PBXTextBookmark */ = 77401453107F634B00DB5136 /* PBXTextBookmark */;
+			77401454107F634B00DB5136 /* PBXTextBookmark */ = 77401454107F634B00DB5136 /* PBXTextBookmark */;
+			77401455107F634B00DB5136 /* PBXTextBookmark */ = 77401455107F634B00DB5136 /* PBXTextBookmark */;
+			77401456107F634B00DB5136 /* PBXTextBookmark */ = 77401456107F634B00DB5136 /* PBXTextBookmark */;
+			77401457107F634B00DB5136 /* PBXTextBookmark */ = 77401457107F634B00DB5136 /* PBXTextBookmark */;
+			77401458107F634B00DB5136 /* PBXTextBookmark */ = 77401458107F634B00DB5136 /* PBXTextBookmark */;
+			77401459107F634B00DB5136 /* PBXTextBookmark */ = 77401459107F634B00DB5136 /* PBXTextBookmark */;
+			7740145A107F634B00DB5136 /* PBXTextBookmark */ = 7740145A107F634B00DB5136 /* PBXTextBookmark */;
+			7740145B107F634B00DB5136 /* PBXTextBookmark */ = 7740145B107F634B00DB5136 /* PBXTextBookmark */;
+			7740145C107F634B00DB5136 /* PBXTextBookmark */ = 7740145C107F634B00DB5136 /* PBXTextBookmark */;
+			7740145D107F634B00DB5136 /* PBXTextBookmark */ = 7740145D107F634B00DB5136 /* PBXTextBookmark */;
+			7740145E107F634B00DB5136 /* PBXTextBookmark */ = 7740145E107F634B00DB5136 /* PBXTextBookmark */;
+			7740145F107F634B00DB5136 /* PBXTextBookmark */ = 7740145F107F634B00DB5136 /* PBXTextBookmark */;
+			77401460107F634B00DB5136 /* PBXTextBookmark */ = 77401460107F634B00DB5136 /* PBXTextBookmark */;
+			77401462107F634B00DB5136 /* PBXTextBookmark */ = 77401462107F634B00DB5136 /* PBXTextBookmark */;
+			77401463107F634B00DB5136 /* PBXTextBookmark */ = 77401463107F634B00DB5136 /* PBXTextBookmark */;
+			77401464107F634B00DB5136 /* PBXTextBookmark */ = 77401464107F634B00DB5136 /* PBXTextBookmark */;
+			77401465107F634B00DB5136 /* XDModelBookmark */ = 77401465107F634B00DB5136 /* XDModelBookmark */;
+			77401466107F634B00DB5136 /* PBXTextBookmark */ = 77401466107F634B00DB5136 /* PBXTextBookmark */;
+			77401467107F634B00DB5136 /* PBXTextBookmark */ = 77401467107F634B00DB5136 /* PBXTextBookmark */;
+			77401468107F634B00DB5136 /* PBXTextBookmark */ = 77401468107F634B00DB5136 /* PBXTextBookmark */;
+			77401469107F634B00DB5136 /* PBXTextBookmark */ = 77401469107F634B00DB5136 /* PBXTextBookmark */;
+			7740146A107F634B00DB5136 /* PBXTextBookmark */ = 7740146A107F634B00DB5136 /* PBXTextBookmark */;
+			7740146B107F634B00DB5136 /* PBXTextBookmark */ = 7740146B107F634B00DB5136 /* PBXTextBookmark */;
+			7740146C107F634B00DB5136 /* PBXTextBookmark */ = 7740146C107F634B00DB5136 /* PBXTextBookmark */;
+			77401472107F641600DB5136 /* PBXTextBookmark */ = 77401472107F641600DB5136 /* PBXTextBookmark */;
+			77401473107F641600DB5136 /* PBXTextBookmark */ = 77401473107F641600DB5136 /* PBXTextBookmark */;
+			77401474107F641600DB5136 /* PBXTextBookmark */ = 77401474107F641600DB5136 /* PBXTextBookmark */;
+			77401476107F641600DB5136 /* PBXTextBookmark */ = 77401476107F641600DB5136 /* PBXTextBookmark */;
+			77401478107F641600DB5136 /* PBXTextBookmark */ = 77401478107F641600DB5136 /* PBXTextBookmark */;
+			77401479107F641600DB5136 /* PBXTextBookmark */ = 77401479107F641600DB5136 /* PBXTextBookmark */;
+			7740147A107F641600DB5136 /* PBXTextBookmark */ = 7740147A107F641600DB5136 /* PBXTextBookmark */;
+			7740147B107F641600DB5136 /* PBXTextBookmark */ = 7740147B107F641600DB5136 /* PBXTextBookmark */;
+			7740147C107F641600DB5136 /* PBXTextBookmark */ = 7740147C107F641600DB5136 /* PBXTextBookmark */;
+			7740147D107F641600DB5136 /* PBXTextBookmark */ = 7740147D107F641600DB5136 /* PBXTextBookmark */;
+			7740147F107F641600DB5136 /* PBXTextBookmark */ = 7740147F107F641600DB5136 /* PBXTextBookmark */;
+			77401480107F641600DB5136 /* PBXTextBookmark */ = 77401480107F641600DB5136 /* PBXTextBookmark */;
+			77401481107F641600DB5136 /* PBXTextBookmark */ = 77401481107F641600DB5136 /* PBXTextBookmark */;
+			77401482107F641600DB5136 /* PBXTextBookmark */ = 77401482107F641600DB5136 /* PBXTextBookmark */;
+			77401483107F641600DB5136 /* PBXTextBookmark */ = 77401483107F641600DB5136 /* PBXTextBookmark */;
+			77401485107F641600DB5136 /* PBXTextBookmark */ = 77401485107F641600DB5136 /* PBXTextBookmark */;
+			77401486107F641600DB5136 /* PBXTextBookmark */ = 77401486107F641600DB5136 /* PBXTextBookmark */;
+			77401487107F641600DB5136 /* PBXTextBookmark */ = 77401487107F641600DB5136 /* PBXTextBookmark */;
+			77401489107F641600DB5136 /* PBXTextBookmark */ = 77401489107F641600DB5136 /* PBXTextBookmark */;
+			7740148A107F641600DB5136 /* PBXTextBookmark */ = 7740148A107F641600DB5136 /* PBXTextBookmark */;
+			7740148C107F641600DB5136 /* PBXTextBookmark */ = 7740148C107F641600DB5136 /* PBXTextBookmark */;
+			7740148E107F641600DB5136 /* PBXTextBookmark */ = 7740148E107F641600DB5136 /* PBXTextBookmark */;
+			77401491107F643800DB5136 /* PBXTextBookmark */ = 77401491107F643800DB5136 /* PBXTextBookmark */;
+			77401496107F64DC00DB5136 /* PBXTextBookmark */ = 77401496107F64DC00DB5136 /* PBXTextBookmark */;
+			77401497107F64DC00DB5136 /* PBXTextBookmark */ = 77401497107F64DC00DB5136 /* PBXTextBookmark */;
+			77401499107F64DC00DB5136 /* PBXTextBookmark */ = 77401499107F64DC00DB5136 /* PBXTextBookmark */;
+			7740149A107F64DC00DB5136 /* PBXTextBookmark */ = 7740149A107F64DC00DB5136 /* PBXTextBookmark */;
+			7740149B107F64DC00DB5136 /* PBXTextBookmark */ = 7740149B107F64DC00DB5136 /* PBXTextBookmark */;
+			7740149C107F64DC00DB5136 /* PBXTextBookmark */ = 7740149C107F64DC00DB5136 /* PBXTextBookmark */;
+			7740149D107F64DC00DB5136 /* PBXTextBookmark */ = 7740149D107F64DC00DB5136 /* PBXTextBookmark */;
+			7740149E107F64DC00DB5136 /* PBXTextBookmark */ = 7740149E107F64DC00DB5136 /* PBXTextBookmark */;
+			774014A0107F64DC00DB5136 /* PBXTextBookmark */ = 774014A0107F64DC00DB5136 /* PBXTextBookmark */;
+			774014A1107F64DC00DB5136 /* PBXTextBookmark */ = 774014A1107F64DC00DB5136 /* PBXTextBookmark */;
+			774014A2107F64DC00DB5136 /* PBXTextBookmark */ = 774014A2107F64DC00DB5136 /* PBXTextBookmark */;
+			774014A5107F66DC00DB5136 /* PBXTextBookmark */ = 774014A5107F66DC00DB5136 /* PBXTextBookmark */;
+			774014A6107F66DC00DB5136 /* PBXTextBookmark */ = 774014A6107F66DC00DB5136 /* PBXTextBookmark */;
+			774014A7107F66DC00DB5136 /* PBXTextBookmark */ = 774014A7107F66DC00DB5136 /* PBXTextBookmark */;
+			774014A8107F66DC00DB5136 /* PBXTextBookmark */ = 774014A8107F66DC00DB5136 /* PBXTextBookmark */;
+			774014A9107F66DC00DB5136 /* PBXTextBookmark */ = 774014A9107F66DC00DB5136 /* PBXTextBookmark */;
+			774014AA107F66DC00DB5136 /* PBXTextBookmark */ = 774014AA107F66DC00DB5136 /* PBXTextBookmark */;
+			774014AB107F66DC00DB5136 /* PBXTextBookmark */ = 774014AB107F66DC00DB5136 /* PBXTextBookmark */;
+			774014AC107F66DC00DB5136 /* PBXTextBookmark */ = 774014AC107F66DC00DB5136 /* PBXTextBookmark */;
+			774014B1107FD55A00DB5136 /* PBXTextBookmark */ = 774014B1107FD55A00DB5136 /* PBXTextBookmark */;
+			774014B2107FD55A00DB5136 /* PBXTextBookmark */ = 774014B2107FD55A00DB5136 /* PBXTextBookmark */;
+			774014B3107FD55A00DB5136 /* PBXTextBookmark */ = 774014B3107FD55A00DB5136 /* PBXTextBookmark */;
+			774014B4107FD55A00DB5136 /* PBXTextBookmark */ = 774014B4107FD55A00DB5136 /* PBXTextBookmark */;
+			774014B5107FD55A00DB5136 /* PBXTextBookmark */ = 774014B5107FD55A00DB5136 /* PBXTextBookmark */;
+			774014B7107FD58500DB5136 /* PBXTextBookmark */ = 774014B7107FD58500DB5136 /* PBXTextBookmark */;
+			774014B8107FD58500DB5136 /* PBXTextBookmark */ = 774014B8107FD58500DB5136 /* PBXTextBookmark */;
+			774014B9107FD58500DB5136 /* PBXTextBookmark */ = 774014B9107FD58500DB5136 /* PBXTextBookmark */;
+			774014C0107FD72D00DB5136 /* PBXTextBookmark */ = 774014C0107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C1107FD72D00DB5136 /* PBXTextBookmark */ = 774014C1107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C2107FD72D00DB5136 /* PBXTextBookmark */ = 774014C2107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C3107FD72D00DB5136 /* PBXTextBookmark */ = 774014C3107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C4107FD72D00DB5136 /* PBXTextBookmark */ = 774014C4107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C5107FD72D00DB5136 /* PBXTextBookmark */ = 774014C5107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C6107FD72D00DB5136 /* PBXTextBookmark */ = 774014C6107FD72D00DB5136 /* PBXTextBookmark */;
+			774014C7107FD72D00DB5136 /* PBXTextBookmark */ = 774014C7107FD72D00DB5136 /* PBXTextBookmark */;
+			774014CA107FD7AE00DB5136 /* PBXTextBookmark */ = 774014CA107FD7AE00DB5136 /* PBXTextBookmark */;
+			774014CC107FD7AE00DB5136 /* PBXTextBookmark */ = 774014CC107FD7AE00DB5136 /* PBXTextBookmark */;
+			774014CD107FD7AE00DB5136 /* PBXTextBookmark */ = 774014CD107FD7AE00DB5136 /* PBXTextBookmark */;
+			774014CE107FD7AE00DB5136 /* PBXTextBookmark */ = 774014CE107FD7AE00DB5136 /* PBXTextBookmark */;
+			774014D0107FD7AE00DB5136 /* PBXTextBookmark */ = 774014D0107FD7AE00DB5136 /* PBXTextBookmark */;
+			774014D3107FD7BD00DB5136 /* PBXTextBookmark */ = 774014D3107FD7BD00DB5136 /* PBXTextBookmark */;
+			774014DD107FD9F400DB5136 /* PBXTextBookmark */ = 774014DD107FD9F400DB5136 /* PBXTextBookmark */;
+			774014DE107FD9F400DB5136 /* PBXTextBookmark */ = 774014DE107FD9F400DB5136 /* PBXTextBookmark */;
+			774014DF107FD9F400DB5136 /* PBXTextBookmark */ = 774014DF107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E0107FD9F400DB5136 /* PBXTextBookmark */ = 774014E0107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E1107FD9F400DB5136 /* PBXTextBookmark */ = 774014E1107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E2107FD9F400DB5136 /* PBXTextBookmark */ = 774014E2107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E3107FD9F400DB5136 /* PBXTextBookmark */ = 774014E3107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E4107FD9F400DB5136 /* PBXTextBookmark */ = 774014E4107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E5107FD9F400DB5136 /* PBXTextBookmark */ = 774014E5107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E6107FD9F400DB5136 /* PBXTextBookmark */ = 774014E6107FD9F400DB5136 /* PBXTextBookmark */;
+			774014E9107FDA1B00DB5136 /* PBXTextBookmark */ = 774014E9107FDA1B00DB5136 /* PBXTextBookmark */;
+			774014EC107FDB4A00DB5136 /* PBXTextBookmark */ = 774014EC107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014ED107FDB4A00DB5136 /* PBXTextBookmark */ = 774014ED107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014EF107FDB4A00DB5136 /* PBXTextBookmark */ = 774014EF107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014F0107FDB4A00DB5136 /* PBXTextBookmark */ = 774014F0107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014F1107FDB4A00DB5136 /* PBXTextBookmark */ = 774014F1107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014F2107FDB4A00DB5136 /* PBXTextBookmark */ = 774014F2107FDB4A00DB5136 /* PBXTextBookmark */;
+			774014F4107FDB4A00DB5136 /* PBXTextBookmark */ = 774014F4107FDB4A00DB5136 /* PBXTextBookmark */;
+			77401501107FDC7800DB5136 /* PBXTextBookmark */ = 77401501107FDC7800DB5136 /* PBXTextBookmark */;
+			77401502107FDC7800DB5136 /* PBXTextBookmark */ = 77401502107FDC7800DB5136 /* PBXTextBookmark */;
+			77401503107FDC7800DB5136 /* PBXTextBookmark */ = 77401503107FDC7800DB5136 /* PBXTextBookmark */;
+			77401504107FDC7800DB5136 /* PBXTextBookmark */ = 77401504107FDC7800DB5136 /* PBXTextBookmark */;
+			77401505107FDC7800DB5136 /* PBXTextBookmark */ = 77401505107FDC7800DB5136 /* PBXTextBookmark */;
+			77401506107FDC7800DB5136 /* PBXTextBookmark */ = 77401506107FDC7800DB5136 /* PBXTextBookmark */;
+			77401507107FDC7800DB5136 /* PBXTextBookmark */ = 77401507107FDC7800DB5136 /* PBXTextBookmark */;
+			7740150C107FDCD100DB5136 /* PBXTextBookmark */ = 7740150C107FDCD100DB5136 /* PBXTextBookmark */;
+			77401515107FDDB600DB5136 /* PBXTextBookmark */ = 77401515107FDDB600DB5136 /* PBXTextBookmark */;
+			7740151A107FDFFB00DB5136 /* PBXTextBookmark */ = 7740151A107FDFFB00DB5136 /* PBXTextBookmark */;
+			7740151B107FDFFB00DB5136 /* PBXTextBookmark */ = 7740151B107FDFFB00DB5136 /* PBXTextBookmark */;
+			7740151D107FDFFB00DB5136 /* PBXTextBookmark */ = 7740151D107FDFFB00DB5136 /* PBXTextBookmark */;
+			7740151E107FDFFB00DB5136 /* PBXTextBookmark */ = 7740151E107FDFFB00DB5136 /* PBXTextBookmark */;
+			7740151F107FDFFB00DB5136 /* PBXTextBookmark */ = 7740151F107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401520107FDFFB00DB5136 /* PBXTextBookmark */ = 77401520107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401521107FDFFB00DB5136 /* PBXTextBookmark */ = 77401521107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401523107FDFFB00DB5136 /* PBXTextBookmark */ = 77401523107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401524107FDFFB00DB5136 /* PBXTextBookmark */ = 77401524107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401526107FDFFB00DB5136 /* PBXTextBookmark */ = 77401526107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401527107FDFFB00DB5136 /* PBXTextBookmark */ = 77401527107FDFFB00DB5136 /* PBXTextBookmark */;
+			77401529107FDFFB00DB5136 /* PBXTextBookmark */ = 77401529107FDFFB00DB5136 /* PBXTextBookmark */;
+			7740152D107FE05700DB5136 /* PBXTextBookmark */ = 7740152D107FE05700DB5136 /* PBXTextBookmark */;
+			77401533107FE0AE00DB5136 /* PBXTextBookmark */ = 77401533107FE0AE00DB5136 /* PBXTextBookmark */;
+			77401536107FE15400DB5136 /* PBXTextBookmark */ = 77401536107FE15400DB5136 /* PBXTextBookmark */;
+			77401539107FE22900DB5136 /* PBXTextBookmark */ = 77401539107FE22900DB5136 /* PBXTextBookmark */;
+			7740153A107FE22900DB5136 /* PBXTextBookmark */ = 7740153A107FE22900DB5136 /* PBXTextBookmark */;
+			7740153B107FE22900DB5136 /* PBXTextBookmark */ = 7740153B107FE22900DB5136 /* PBXTextBookmark */;
+			7740153C107FE22900DB5136 /* PBXTextBookmark */ = 7740153C107FE22900DB5136 /* PBXTextBookmark */;
+			7740153D107FE22900DB5136 /* PBXTextBookmark */ = 7740153D107FE22900DB5136 /* PBXTextBookmark */;
+			7740153E107FE22900DB5136 /* PBXTextBookmark */ = 7740153E107FE22900DB5136 /* PBXTextBookmark */;
+			7740153F107FE22900DB5136 /* PBXTextBookmark */ = 7740153F107FE22900DB5136 /* PBXTextBookmark */;
+			77401540107FE22900DB5136 /* PBXTextBookmark */ = 77401540107FE22900DB5136 /* PBXTextBookmark */;
+			77401541107FE22900DB5136 /* PBXTextBookmark */ = 77401541107FE22900DB5136 /* PBXTextBookmark */;
+			77401542107FE22900DB5136 /* PBXTextBookmark */ = 77401542107FE22900DB5136 /* PBXTextBookmark */;
+			77401543107FE22900DB5136 /* PBXTextBookmark */ = 77401543107FE22900DB5136 /* PBXTextBookmark */;
+			77401546107FE24A00DB5136 /* PBXTextBookmark */ = 77401546107FE24A00DB5136 /* PBXTextBookmark */;
+			77401547107FE24A00DB5136 /* PBXTextBookmark */ = 77401547107FE24A00DB5136 /* PBXTextBookmark */;
+			77401548107FE24A00DB5136 /* PBXTextBookmark */ = 77401548107FE24A00DB5136 /* PBXTextBookmark */;
+			77401549107FE24A00DB5136 /* PBXTextBookmark */ = 77401549107FE24A00DB5136 /* PBXTextBookmark */;
+			7740154C107FE34200DB5136 /* PBXTextBookmark */ = 7740154C107FE34200DB5136 /* PBXTextBookmark */;
+			7740154D107FE34200DB5136 /* PBXTextBookmark */ = 7740154D107FE34200DB5136 /* PBXTextBookmark */;
+			7740154E107FE34200DB5136 /* PBXTextBookmark */ = 7740154E107FE34200DB5136 /* PBXTextBookmark */;
+			7740154F107FE34200DB5136 /* PBXTextBookmark */ = 7740154F107FE34200DB5136 /* PBXTextBookmark */;
+			77401550107FE34200DB5136 /* PBXTextBookmark */ = 77401550107FE34200DB5136 /* PBXTextBookmark */;
+			77401551107FE34200DB5136 /* PBXTextBookmark */ = 77401551107FE34200DB5136 /* PBXTextBookmark */;
+			77401552107FE34200DB5136 /* PBXTextBookmark */ = 77401552107FE34200DB5136 /* PBXTextBookmark */;
+			77401553107FE34200DB5136 /* PBXTextBookmark */ = 77401553107FE34200DB5136 /* PBXTextBookmark */;
+			77401557107FE4E900DB5136 /* PBXTextBookmark */ = 77401557107FE4E900DB5136 /* PBXTextBookmark */;
+			77401558107FE4E900DB5136 /* PBXTextBookmark */ = 77401558107FE4E900DB5136 /* PBXTextBookmark */;
+			77401559107FE4E900DB5136 /* PBXTextBookmark */ = 77401559107FE4E900DB5136 /* PBXTextBookmark */;
+			7740155A107FE4E900DB5136 /* PBXTextBookmark */ = 7740155A107FE4E900DB5136 /* PBXTextBookmark */;
+			7740155B107FE4E900DB5136 /* PBXTextBookmark */ = 7740155B107FE4E900DB5136 /* PBXTextBookmark */;
+			7740155C107FE4E900DB5136 /* PBXTextBookmark */ = 7740155C107FE4E900DB5136 /* PBXTextBookmark */;
+			7740155D107FE4E900DB5136 /* PBXTextBookmark */ = 7740155D107FE4E900DB5136 /* PBXTextBookmark */;
+			7740155E107FE4E900DB5136 /* PBXTextBookmark */ = 7740155E107FE4E900DB5136 /* PBXTextBookmark */;
+			77401561107FE5C400DB5136 /* PBXTextBookmark */ = 77401561107FE5C400DB5136 /* PBXTextBookmark */;
+			77401562107FE5C400DB5136 /* PBXTextBookmark */ = 77401562107FE5C400DB5136 /* PBXTextBookmark */;
+			77401563107FE5C400DB5136 /* PBXTextBookmark */ = 77401563107FE5C400DB5136 /* PBXTextBookmark */;
+			77401564107FE5C400DB5136 /* PBXTextBookmark */ = 77401564107FE5C400DB5136 /* PBXTextBookmark */;
+			7740156B107FE6A800DB5136 /* PBXTextBookmark */ = 7740156B107FE6A800DB5136 /* PBXTextBookmark */;
+			7740156E107FE7BD00DB5136 /* PBXTextBookmark */ = 7740156E107FE7BD00DB5136 /* PBXTextBookmark */;
+			7740156F107FE7BD00DB5136 /* PBXTextBookmark */ = 7740156F107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401571107FE7BD00DB5136 /* PBXTextBookmark */ = 77401571107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401572107FE7BD00DB5136 /* PBXTextBookmark */ = 77401572107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401573107FE7BD00DB5136 /* PBXTextBookmark */ = 77401573107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401574107FE7BD00DB5136 /* PBXTextBookmark */ = 77401574107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401575107FE7BD00DB5136 /* PBXTextBookmark */ = 77401575107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401577107FE7BD00DB5136 /* PBXTextBookmark */ = 77401577107FE7BD00DB5136 /* PBXTextBookmark */;
+			77401578107FE7BD00DB5136 /* PBXTextBookmark */ = 77401578107FE7BD00DB5136 /* PBXTextBookmark */;
+			7740157A107FE7BD00DB5136 /* PBXTextBookmark */ = 7740157A107FE7BD00DB5136 /* PBXTextBookmark */;
+			7740157E107FE8C200DB5136 /* PBXTextBookmark */ = 7740157E107FE8C200DB5136 /* PBXTextBookmark */;
+			7740157F107FE8C200DB5136 /* PBXTextBookmark */ = 7740157F107FE8C200DB5136 /* PBXTextBookmark */;
+			77401580107FE8C200DB5136 /* PBXTextBookmark */ = 77401580107FE8C200DB5136 /* PBXTextBookmark */;
+			77401581107FE8C200DB5136 /* PBXTextBookmark */ = 77401581107FE8C200DB5136 /* PBXTextBookmark */;
+			77401584107FE8DA00DB5136 /* PBXTextBookmark */ = 77401584107FE8DA00DB5136 /* PBXTextBookmark */;
+			7740158A107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158A107FE9DA00DB5136 /* PBXTextBookmark */;
+			7740158B107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158B107FE9DA00DB5136 /* PBXTextBookmark */;
+			7740158C107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158C107FE9DA00DB5136 /* PBXTextBookmark */;
+			7740158D107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158D107FE9DA00DB5136 /* PBXTextBookmark */;
+			7740158E107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158E107FE9DA00DB5136 /* PBXTextBookmark */;
+			7740158F107FE9DA00DB5136 /* PBXTextBookmark */ = 7740158F107FE9DA00DB5136 /* PBXTextBookmark */;
+			77401590107FE9DA00DB5136 /* PBXTextBookmark */ = 77401590107FE9DA00DB5136 /* PBXTextBookmark */;
+			77401591107FE9DA00DB5136 /* PBXTextBookmark */ = 77401591107FE9DA00DB5136 /* PBXTextBookmark */;
+			77401592107FE9DA00DB5136 /* PBXTextBookmark */ = 77401592107FE9DA00DB5136 /* PBXTextBookmark */;
+			77401594107FEA1F00DB5136 /* PBXTextBookmark */ = 77401594107FEA1F00DB5136 /* PBXTextBookmark */;
+			77401595107FEA1F00DB5136 /* PBXTextBookmark */ = 77401595107FEA1F00DB5136 /* PBXTextBookmark */;
+			77401596107FEA1F00DB5136 /* PBXTextBookmark */ = 77401596107FEA1F00DB5136 /* PBXTextBookmark */;
+			77401597107FEA1F00DB5136 /* PBXTextBookmark */ = 77401597107FEA1F00DB5136 /* PBXTextBookmark */;
+			7740159A107FEB3400DB5136 /* PBXTextBookmark */ = 7740159A107FEB3400DB5136 /* PBXTextBookmark */;
+			7740159C107FEB3400DB5136 /* PBXTextBookmark */ = 7740159C107FEB3400DB5136 /* PBXTextBookmark */;
+			7740159D107FEB3400DB5136 /* PBXTextBookmark */ = 7740159D107FEB3400DB5136 /* PBXTextBookmark */;
+			7740159E107FEB3400DB5136 /* PBXTextBookmark */ = 7740159E107FEB3400DB5136 /* PBXTextBookmark */;
+			7740159F107FEB3400DB5136 /* PBXTextBookmark */ = 7740159F107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A0107FEB3400DB5136 /* PBXTextBookmark */ = 774015A0107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A1107FEB3400DB5136 /* PBXTextBookmark */ = 774015A1107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A3107FEB3400DB5136 /* PBXTextBookmark */ = 774015A3107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A4107FEB3400DB5136 /* PBXTextBookmark */ = 774015A4107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A5107FEB3400DB5136 /* PBXTextBookmark */ = 774015A5107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A6107FEB3400DB5136 /* PBXTextBookmark */ = 774015A6107FEB3400DB5136 /* PBXTextBookmark */;
+			774015A8107FEB4700DB5136 /* PBXTextBookmark */ = 774015A8107FEB4700DB5136 /* PBXTextBookmark */;
+			774015AA107FEB8600DB5136 /* PBXTextBookmark */ = 774015AA107FEB8600DB5136 /* PBXTextBookmark */;
+			774015AC107FEC5C00DB5136 /* PBXTextBookmark */ = 774015AC107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015AD107FEC5C00DB5136 /* PBXTextBookmark */ = 774015AD107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015AE107FEC5C00DB5136 /* PBXTextBookmark */ = 774015AE107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015AF107FEC5C00DB5136 /* PBXTextBookmark */ = 774015AF107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B0107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B0107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B1107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B1107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B2107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B2107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B3107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B3107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B4107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B4107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B5107FEC5C00DB5136 /* PBXTextBookmark */ = 774015B5107FEC5C00DB5136 /* PBXTextBookmark */;
+			774015B8107FEDFD00DB5136 /* PBXTextBookmark */ = 774015B8107FEDFD00DB5136 /* PBXTextBookmark */;
+			774015BA107FEDFD00DB5136 /* PBXTextBookmark */ = 774015BA107FEDFD00DB5136 /* PBXTextBookmark */;
+			774015BB107FEDFD00DB5136 /* PBXTextBookmark */ = 774015BB107FEDFD00DB5136 /* PBXTextBookmark */;
+			774015BC107FEDFD00DB5136 /* PBXTextBookmark */ = 774015BC107FEDFD00DB5136 /* PBXTextBookmark */;
+			774015BE107FEDFD00DB5136 /* PBXTextBookmark */ = 774015BE107FEDFD00DB5136 /* PBXTextBookmark */;
 			77BBD323107E718C005936BA = 77BBD323107E718C005936BA /* XDModelBookmark */;
 			77BBD325107E718C005936BA = 77BBD325107E718C005936BA /* PBXTextBookmark */;
 			77BBD326107E718C005936BA = 77BBD326107E718C005936BA /* PBXTextBookmark */;
@@ -447,9 +712,16 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 364}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 358}";
 		};
 	};
 	774013E8107ECBCB00DB5136 /* PBXTextBookmark */ = {
@@ -457,24 +729,3456 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 18";
 		rLen = 0;
-		rLoc = 481;
+		rLoc = 553;
 		rType = 0;
 		vrLen = 1401;
 		vrLoc = 0;
 	};
 	774013F7107ECD1F00DB5136 /* TimeEntry.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
-			sepNavSelRange = "{338, 6}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 561}}";
+			sepNavSelRange = "{340, 0}";
 			sepNavVisRange = "{0, 459}";
 		};
 	};
 	774013F8107ECD1F00DB5136 /* TimeEntry.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{0, 401}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 561}}";
+			sepNavSelRange = "{461, 0}";
+			sepNavVisRange = "{0, 472}";
 		};
+	};
+	77401428107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD318107E7155005936BA /* Client.m */;
+		name = "Client.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	77401429107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD3FB107E82BE005936BA /* NSValue.h */;
+		name = "NSValue.h: 36";
+		rLen = 30;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 0;
+	};
+	7740142A107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD39D107E7CDE005936BA /* NSDate.h */;
+		name = "NSDate.h: 21";
+		rLen = 63;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 0;
+	};
+	7740142B107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	7740142C107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD311107E7155005936BA /* POC.h */;
+		name = "POC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	7740142D107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD312107E7155005936BA /* POC.m */;
+		name = "POC.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	7740142E107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD317107E7155005936BA /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	7740142F107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */;
+		name = "TimeClockAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	77401430107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401431107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401432107F634B00DB5136 /* mlb5000.pbxuser */;
+		name = "mlb5000.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 0;
+	};
+	77401432107F634B00DB5136 /* mlb5000.pbxuser */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = mlb5000.pbxuser;
+		path = /Users/mlb5000/Documents/TimeClock/TimeClock.xcodeproj/mlb5000.pbxuser;
+		sourceTree = "<absolute>";
+	};
+	77401433107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	77401434107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */;
+		name = "TimeClock_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	77401435107F634B00DB5136 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					65.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {658, 218}}",
+						"{{663, 0}, {345, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1008, 220}}",
+						"{{0, 225}, {1008, 328}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {215, 218}}",
+						"{{220, 0}, {438, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					286.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					81.000000,
+					202.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					286.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					175.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					287.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-173, 0}, {993, 313}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	77401436107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 150;
+	};
+	77401437107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 23";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 382;
+	};
+	77401438107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 736;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 0;
+	};
+	77401439107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 18";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 1474;
+		vrLoc = 0;
+	};
+	7740143A107F634B00DB5136 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					65.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {658, 218}}",
+						"{{663, 0}, {345, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1008, 220}}",
+						"{{0, 225}, {1008, 508}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {215, 218}}",
+						"{{220, 0}, {438, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					286.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					81.000000,
+					202.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					286.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					175.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					287.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-173, -31}, {993, 493}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	7740143B107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD317107E7155005936BA /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	7740143C107F634B00DB5136 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					64.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {658, 218}}",
+						"{{663, 0}, {345, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1008, 220}}",
+						"{{0, 225}, {1008, 508}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {214, 218}}",
+						"{{219, 0}, {437, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					286.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					81.000000,
+					202.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					286.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					174.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					287.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-173, -31}, {993, 493}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x3025530>{name=TimeEntry, package=}",
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	7740143D107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 0;
+	};
+	7740143E107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	7740143F107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 0;
+	};
+	77401440107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD311107E7155005936BA /* POC.h */;
+		name = "POC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	77401441107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD312107E7155005936BA /* POC.m */;
+		name = "POC.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	77401442107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD317107E7155005936BA /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	77401443107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD318107E7155005936BA /* Client.m */;
+		name = "Client.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	77401444107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */;
+		name = "TimeClockAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	77401445107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 0;
+	};
+	77401446107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 221";
+		rLen = 0;
+		rLoc = 10078;
+		rType = 0;
+		vrLen = 1849;
+		vrLoc = 6111;
+	};
+	77401447107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	77401448107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 24;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401449107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	7740144A107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 8;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	7740144B107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD3FB107E82BE005936BA /* NSValue.h */;
+		name = "NSValue.h: 36";
+		rLen = 30;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 0;
+	};
+	7740144C107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	7740144D107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	7740144E107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD39D107E7CDE005936BA /* NSDate.h */;
+		name = "NSDate.h: 21";
+		rLen = 21;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 0;
+	};
+	7740144F107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD311107E7155005936BA /* POC.h */;
+		name = "POC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	77401450107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 21;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 355;
+		vrLoc = 0;
+	};
+	77401451107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD39D107E7CDE005936BA /* NSDate.h */;
+		name = "NSDate.h: 21";
+		rLen = 63;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 0;
+	};
+	77401452107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 0;
+	};
+	77401453107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401454107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 449;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	77401455107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401456107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	77401457107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401458107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	77401459107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD311107E7155005936BA /* POC.h */;
+		name = "POC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	7740145A107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD312107E7155005936BA /* POC.m */;
+		name = "POC.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	7740145B107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD317107E7155005936BA /* Client.h */;
+		name = "Client.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	7740145C107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */;
+		name = "TimeClockAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	7740145D107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 0;
+	};
+	7740145E107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 221";
+		rLen = 0;
+		rLoc = 10078;
+		rType = 0;
+		vrLen = 2049;
+		vrLoc = 6086;
+	};
+	7740145F107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 6;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401460107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401461107F634B00DB5136 /* mlb5000.pbxuser */;
+		name = "mlb5000.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 0;
+	};
+	77401461107F634B00DB5136 /* mlb5000.pbxuser */ = {
+		isa = PBXFileReference;
+		name = mlb5000.pbxuser;
+		path = /Users/mlb5000/Documents/TimeClock/TimeClock.xcodeproj/mlb5000.pbxuser;
+		sourceTree = "<absolute>";
+	};
+	77401462107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */;
+		name = "TimeClock_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	77401463107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	77401464107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */;
+		name = "TimeClock_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	77401465107F634B00DB5136 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					65.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {658, 218}}",
+						"{{663, 0}, {345, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1008, 220}}",
+						"{{0, 225}, {1008, 328}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {215, 218}}",
+						"{{220, 0}, {438, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					286.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					81.000000,
+					202.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					286.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					175.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					287.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-173, 0}, {993, 313}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	77401466107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 221";
+		rLen = 0;
+		rLoc = 10078;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 269;
+	};
+	77401467107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 150;
+	};
+	77401468107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 750;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	77401469107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 221";
+		rLen = 0;
+		rLoc = 10078;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 188;
+	};
+	7740146A107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 736;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 0;
+	};
+	7740146B107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 23";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 382;
+	};
+	7740146C107F634B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	77401472107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */;
+		name = "TimeClockAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	77401473107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	77401474107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401475107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 63";
+		rLen = 14;
+		rLoc = 2798;
+		rType = 0;
+		vrLen = 3747;
+		vrLoc = 1444;
+	};
+	77401475107F641600DB5136 /* UIButton.h */ = {
+		isa = PBXFileReference;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+	};
+	77401476107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401477107F641600DB5136 /* UIControl.h */;
+		name = "UIControl.h: 53";
+		rLen = 20;
+		rLoc = 1977;
+		rType = 0;
+		vrLen = 1572;
+		vrLoc = 1569;
+	};
+	77401477107F641600DB5136 /* UIControl.h */ = {
+		isa = PBXFileReference;
+		name = UIControl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h;
+		sourceTree = "<absolute>";
+	};
+	77401478107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 19";
+		rLen = 8;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 49;
+	};
+	77401479107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	7740147A107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 19";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 49;
+	};
+	7740147B107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */;
+		name = "TimeClockAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	7740147C107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	7740147D107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740147E107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 26";
+		rLen = 64;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 87;
+	};
+	7740147E107F641600DB5136 /* UIButton.h */ = {
+		isa = PBXFileReference;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+	};
+	7740147F107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 22";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 49;
+	};
+	77401480107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	77401481107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 22";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 49;
+	};
+	77401482107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	77401483107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401484107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 26";
+		rLen = 64;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 3410;
+		vrLoc = 2085;
+	};
+	77401484107F641600DB5136 /* UIButton.h */ = {
+		isa = PBXFileReference;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+	};
+	77401485107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 23";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 49;
+	};
+	77401486107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	77401487107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401488107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 26";
+		rLen = 64;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 2964;
+		vrLoc = 993;
+	};
+	77401488107F641600DB5136 /* UIButton.h */ = {
+		isa = PBXFileReference;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+	};
+	77401489107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 19";
+		rLen = 8;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 49;
+	};
+	7740148A107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148B107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 63";
+		rLen = 14;
+		rLoc = 2798;
+		rType = 0;
+		vrLen = 3747;
+		vrLoc = 1444;
+	};
+	7740148B107F641600DB5136 /* UIButton.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1038, 1484}}";
+			sepNavSelRange = "{603, 64}";
+			sepNavVisRange = "{1283, 3276}";
+		};
+	};
+	7740148C107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148D107F641600DB5136 /* UIControl.h */;
+		name = "UIControl.h: 53";
+		rLen = 20;
+		rLoc = 1977;
+		rType = 0;
+		vrLen = 1572;
+		vrLoc = 1569;
+	};
+	7740148D107F641600DB5136 /* UIControl.h */ = {
+		isa = PBXFileReference;
+		name = UIControl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h;
+		sourceTree = "<absolute>";
+	};
+	7740148E107F641600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 23";
+		rLen = 0;
+		rLoc = 757;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 49;
+	};
+	77401491107F643800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 18";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 49;
+	};
+	77401496107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148B107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 86";
+		rLen = 7;
+		rLoc = 4835;
+		rType = 0;
+		vrLen = 2718;
+		vrLoc = 3357;
+	};
+	77401497107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401498107F64DC00DB5136 /* UILabel.h */;
+		name = "UILabel.h: 16";
+		rLen = 6;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 0;
+	};
+	77401498107F64DC00DB5136 /* UILabel.h */ = {
+		isa = PBXFileReference;
+		name = UILabel.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
+		sourceTree = "<absolute>";
+	};
+	77401499107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD4DD107EB25D005936BA /* UIView.h */;
+		name = "UIView.h: 178";
+		rLen = 15;
+		rLoc = 7524;
+		rType = 0;
+		vrLen = 2968;
+		vrLoc = 7273;
+	};
+	7740149A107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	7740149B107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 20";
+		rLen = 8;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 49;
+	};
+	7740149C107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 20";
+		rLen = 8;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 49;
+	};
+	7740149D107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148B107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 86";
+		rLen = 7;
+		rLoc = 4835;
+		rType = 0;
+		vrLen = 2718;
+		vrLoc = 3357;
+	};
+	7740149E107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740149F107F64DC00DB5136 /* UILabel.h */;
+		name = "UILabel.h: 16";
+		rLen = 6;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 0;
+	};
+	7740149F107F64DC00DB5136 /* UILabel.h */ = {
+		isa = PBXFileReference;
+		name = UILabel.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
+		sourceTree = "<absolute>";
+	};
+	774014A0107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD4DD107EB25D005936BA /* UIView.h */;
+		name = "UIView.h: 178";
+		rLen = 15;
+		rLoc = 7524;
+		rType = 0;
+		vrLen = 2968;
+		vrLoc = 7273;
+	};
+	774014A1107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014A2107F64DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 26";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 49;
+	};
+	774014A5107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 150;
+	};
+	774014A6107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014A7107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 26";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 49;
+	};
+	774014A8107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 26";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 49;
+	};
+	774014A9107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014AA107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 150;
+	};
+	774014AB107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014AC107F66DC00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 20";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 49;
+	};
+	774014B1107FD55A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014B2107FD55A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 20";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 49;
+	};
+	774014B3107FD55A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 20";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 49;
+	};
+	774014B4107FD55A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014B5107FD55A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 28";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 49;
+	};
+	774014B7107FD58500DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 22";
+		rLen = 0;
+		rLoc = 595;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 49;
+	};
+	774014B8107FD58500DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 22";
+		rLen = 0;
+		rLoc = 595;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 49;
+	};
+	774014B9107FD58500DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014C0107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014C1107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148B107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 26";
+		rLen = 64;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 3276;
+		vrLoc = 1283;
+	};
+	774014C2107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 21";
+		rLen = 0;
+		rLoc = 491;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 49;
+	};
+	774014C3107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 10";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014C4107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 21";
+		rLen = 0;
+		rLoc = 491;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 49;
+	};
+	774014C5107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014C6107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740148B107F641600DB5136 /* UIButton.h */;
+		name = "UIButton.h: 26";
+		rLen = 64;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 3276;
+		vrLoc = 1283;
+	};
+	774014C7107FD72D00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 21";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 1275;
+		vrLoc = 49;
+	};
+	774014CA107FD7AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014CB107FD7AE00DB5136 /* UIApplication.h */;
+		name = "UIApplication.h: 26";
+		rLen = 40;
+		rLoc = 751;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 0;
+	};
+	774014CB107FD7AE00DB5136 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	774014CC107FD7AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 48";
+		rLen = 0;
+		rLoc = 4590;
+		rType = 0;
+		vrLen = 1153;
+		vrLoc = 834;
+	};
+	774014CD107FD7AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 48";
+		rLen = 0;
+		rLoc = 4590;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 834;
+	};
+	774014CE107FD7AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014CF107FD7AE00DB5136 /* UIApplication.h */;
+		name = "UIApplication.h: 26";
+		rLen = 40;
+		rLoc = 751;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 0;
+	};
+	774014CF107FD7AE00DB5136 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	774014D0107FD7AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 152";
+		rLen = 0;
+		rLoc = 8264;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 4297;
+	};
+	774014D3107FD7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 152";
+		rLen = 0;
+		rLoc = 8264;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 4587;
+	};
+	774014DD107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014DE107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	774014DF107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	774014E0107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 28";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 49;
+	};
+	774014E1107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 261";
+		rLen = 0;
+		rLoc = 12851;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 8353;
+	};
+	774014E2107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 15";
+		rLen = 8;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014E3107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 28";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 49;
+	};
+	774014E4107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	774014E5107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	774014E6107FD9F400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 17";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 49;
+	};
+	774014E9107FDA1B00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 33";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 49;
+	};
+	774014EC107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 12";
+		rLen = 26;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014ED107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014EE107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 42";
+		rLen = 51;
+		rLoc = 3266;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 6601;
+	};
+	774014EE107FDB4A00DB5136 /* NSFetchedResultsController.h */ = {
+		isa = PBXFileReference;
+		name = NSFetchedResultsController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSFetchedResultsController.h;
+		sourceTree = "<absolute>";
+	};
+	774014EF107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 17";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 1458;
+		vrLoc = 149;
+	};
+	774014F0107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 17";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 1458;
+		vrLoc = 149;
+	};
+	774014F1107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 12";
+		rLen = 26;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	774014F2107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 42";
+		rLen = 51;
+		rLoc = 3266;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 6601;
+	};
+	774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSFetchedResultsController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSFetchedResultsController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4332, 3584}}";
+			sepNavSelRange = "{10303, 45}";
+			sepNavVisRange = "{10546, 2291}";
+		};
+	};
+	774014F4107FDB4A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 25";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 149;
+	};
+	77401501107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	77401502107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 30";
+		rLen = 0;
+		rLoc = 919;
+		rType = 0;
+		vrLen = 1602;
+		vrLoc = 9192;
+	};
+	77401503107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 24";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 1462;
+		vrLoc = 230;
+	};
+	77401504107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	77401505107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 30";
+		rLen = 0;
+		rLoc = 919;
+		rType = 0;
+		vrLen = 1602;
+		vrLoc = 9192;
+	};
+	77401506107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	77401507107FDC7800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 34";
+		rLen = 0;
+		rLoc = 1085;
+		rType = 0;
+		vrLen = 1657;
+		vrLoc = 210;
+	};
+	7740150C107FDCD100DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 54";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 3177;
+	};
+	77401515107FDDB600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 260";
+		rLen = 0;
+		rLoc = 11447;
+		rType = 0;
+		vrLen = 1779;
+		vrLoc = 8301;
+	};
+	7740151A107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	7740151B107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740151C107FDFFB00DB5136 /* NSDateFormatter.h */;
+		name = "NSDateFormatter.h: 41";
+		rLen = 25;
+		rLoc = 1178;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 589;
+	};
+	7740151C107FDFFB00DB5136 /* NSDateFormatter.h */ = {
+		isa = PBXFileReference;
+		name = NSDateFormatter.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h;
+		sourceTree = "<absolute>";
+	};
+	7740151D107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 199";
+		rLen = 26;
+		rLoc = 9263;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 6775;
+	};
+	7740151E107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 149";
+		rLen = 0;
+		rLoc = 7296;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 0;
+	};
+	7740151F107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	77401520107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 199";
+		rLen = 26;
+		rLoc = 9263;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 6775;
+	};
+	77401521107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401522107FDFFB00DB5136 /* NSDateFormatter.h */;
+		name = "NSDateFormatter.h: 42";
+		rLen = 62;
+		rLoc = 1234;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 589;
+	};
+	77401522107FDFFB00DB5136 /* NSDateFormatter.h */ = {
+		isa = PBXFileReference;
+		name = NSDateFormatter.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h;
+		sourceTree = "<absolute>";
+	};
+	77401523107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 200";
+		rLen = 25;
+		rLoc = 9328;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 6775;
+	};
+	77401524107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401525107FDFFB00DB5136 /* NSDateFormatter.h */;
+		name = "NSDateFormatter.h: 41";
+		rLen = 26;
+		rLoc = 1206;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 589;
+	};
+	77401525107FDFFB00DB5136 /* NSDateFormatter.h */ = {
+		isa = PBXFileReference;
+		name = NSDateFormatter.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h;
+		sourceTree = "<absolute>";
+	};
+	77401526107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 199";
+		rLen = 26;
+		rLoc = 9263;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 6775;
+	};
+	77401527107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401528107FDFFB00DB5136 /* NSDateFormatter.h */;
+		name = "NSDateFormatter.h: 41";
+		rLen = 25;
+		rLoc = 1178;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 589;
+	};
+	77401528107FDFFB00DB5136 /* NSDateFormatter.h */ = {
+		isa = PBXFileReference;
+		name = NSDateFormatter.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h;
+		sourceTree = "<absolute>";
+	};
+	77401529107FDFFB00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 200";
+		rLen = 0;
+		rLoc = 9353;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 6775;
+	};
+	7740152D107FE05700DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 234";
+		rLen = 0;
+		rLoc = 10765;
+		rType = 0;
+		vrLen = 1733;
+		vrLoc = 8216;
+	};
+	77401533107FE0AE00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 215";
+		rLen = 0;
+		rLoc = 9942;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 6891;
+	};
+	77401536107FE15400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 112";
+		rLen = 0;
+		rLoc = 5822;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 2765;
+	};
+	77401539107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	7740153A107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	7740153B107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10120;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 6926;
+	};
+	7740153C107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10119;
+		rType = 0;
+		vrLen = 1586;
+		vrLoc = 6892;
+	};
+	7740153D107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 21";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	7740153E107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	7740153F107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10120;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 6926;
+	};
+	77401540107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	77401541107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401542107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	77401543107FE22900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10139;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 7193;
+	};
+	77401546107FE24A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10139;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 7193;
+	};
+	77401547107FE24A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	77401548107FE24A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 218";
+		rLen = 0;
+		rLoc = 10139;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 7193;
+	};
+	77401549107FE24A00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	7740154C107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD39D107E7CDE005936BA /* NSDate.h */;
+		name = "NSDate.h: 21";
+		rLen = 21;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 0;
+	};
+	7740154D107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	7740154E107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 21;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	7740154F107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 21;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	77401550107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD39D107E7CDE005936BA /* NSDate.h */;
+		name = "NSDate.h: 21";
+		rLen = 21;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 0;
+	};
+	77401551107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 21;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	77401552107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F7107ECD1F00DB5136 /* TimeEntry.h */;
+		name = "TimeEntry.h: 20";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	77401553107FE34200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	77401557107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	77401558107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 78";
+		rLen = 28;
+		rLoc = 3906;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 2456;
+	};
+	77401559107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	7740155A107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */;
+		name = "TimeEntry.m: 22";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	7740155B107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 14";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 0;
+	};
+	7740155C107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	7740155D107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 78";
+		rLen = 28;
+		rLoc = 3906;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 2456;
+	};
+	7740155E107FE4E900DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	77401561107FE5C400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	77401562107FE5C400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 78";
+		rLen = 28;
+		rLoc = 3906;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 2456;
+	};
+	77401563107FE5C400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	77401564107FE5C400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 147";
+		rLen = 0;
+		rLoc = 6595;
+		rType = 0;
+		vrLen = 1779;
+		vrLoc = 3997;
+	};
+	7740156B107FE6A800DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 262";
+		rLen = 0;
+		rLoc = 11210;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 8701;
+	};
+	7740156E107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	7740156F107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401570107FE7BD00DB5136 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 124";
+		rLen = 141;
+		rLoc = 4651;
+		rType = 0;
+		vrLen = 4339;
+		vrLoc = 5540;
+	};
+	77401570107FE7BD00DB5136 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	77401571107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 131";
+		rLen = 13;
+		rLoc = 5780;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 3544;
+	};
+	77401572107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 262";
+		rLen = 0;
+		rLoc = 11210;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 0;
+	};
+	77401573107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	77401574107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 131";
+		rLen = 28;
+		rLoc = 5794;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 3544;
+	};
+	77401575107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401576107FE7BD00DB5136 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 43";
+		rLen = 46;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 873;
+	};
+	77401576107FE7BD00DB5136 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	77401577107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 131";
+		rLen = 13;
+		rLoc = 5780;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 3544;
+	};
+	77401578107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77401579107FE7BD00DB5136 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 124";
+		rLen = 141;
+		rLoc = 4651;
+		rType = 0;
+		vrLen = 4339;
+		vrLoc = 5540;
+	};
+	77401579107FE7BD00DB5136 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	7740157A107FE7BD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 132";
+		rLen = 0;
+		rLoc = 5939;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 3544;
+	};
+	7740157E107FE8C200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 132";
+		rLen = 0;
+		rLoc = 5939;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 1384;
+	};
+	7740157F107FE8C200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 22";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	77401580107FE8C200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 132";
+		rLen = 0;
+		rLoc = 5939;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 1384;
+	};
+	77401581107FE8C200DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 0;
+	};
+	77401584107FE8DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	7740158A107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 83";
+		rLen = 0;
+		rLoc = 3613;
+		rType = 0;
+		vrLen = 1468;
+		vrLoc = 1986;
+	};
+	7740158B107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 23";
+		rLen = 0;
+		rLoc = 604;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	7740158C107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	7740158D107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 132";
+		rLen = 0;
+		rLoc = 5939;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 1384;
+	};
+	7740158E107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	7740158F107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 78";
+		rLen = 21;
+		rLoc = 3321;
+		rType = 0;
+		vrLen = 1582;
+		vrLoc = 1986;
+	};
+	77401590107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 23";
+		rLen = 0;
+		rLoc = 604;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	77401591107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 83";
+		rLen = 0;
+		rLoc = 3613;
+		rType = 0;
+		vrLen = 1468;
+		vrLoc = 1986;
+	};
+	77401592107FE9DA00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 23";
+		rLen = 0;
+		rLoc = 612;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	77401594107FEA1F00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 23";
+		rLen = 0;
+		rLoc = 612;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	77401595107FEA1F00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 83";
+		rLen = 0;
+		rLoc = 3613;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 1955;
+	};
+	77401596107FEA1F00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 23";
+		rLen = 0;
+		rLoc = 612;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	77401597107FEA1F00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 55";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1617;
+		vrLoc = 760;
+	};
+	7740159A107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7740159B107FEB3400DB5136 /* UITableView.h */;
+		name = "UITableView.h: 41";
+		rLen = 70;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 1760;
+		vrLoc = 1461;
+	};
+	7740159B107FEB3400DB5136 /* UITableView.h */ = {
+		isa = PBXFileReference;
+		name = UITableView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
+		sourceTree = "<absolute>";
+	};
+	7740159C107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 28";
+		rLen = 26;
+		rLoc = 781;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	7740159D107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 42";
+		rLen = 51;
+		rLoc = 3266;
+		rType = 0;
+		vrLen = 2028;
+		vrLoc = 7301;
+	};
+	7740159E107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 69";
+		rLen = 24;
+		rLoc = 3103;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 1384;
+	};
+	7740159F107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 55";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1684;
+		vrLoc = 883;
+	};
+	774015A0107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 16";
+		rLen = 11;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	774015A1107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774015A2107FEB3400DB5136 /* UITableView.h */;
+		name = "UITableView.h: 41";
+		rLen = 70;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 1760;
+		vrLoc = 1461;
+	};
+	774015A2107FEB3400DB5136 /* UITableView.h */ = {
+		isa = PBXFileReference;
+		name = UITableView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
+		sourceTree = "<absolute>";
+	};
+	774015A3107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 69";
+		rLen = 24;
+		rLoc = 3103;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 1384;
+	};
+	774015A4107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 28";
+		rLen = 26;
+		rLoc = 781;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	774015A5107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 42";
+		rLen = 51;
+		rLoc = 3266;
+		rType = 0;
+		vrLen = 2028;
+		vrLoc = 7301;
+	};
+	774015A6107FEB3400DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 34";
+		rLen = 0;
+		rLoc = 923;
+		rType = 0;
+		vrLen = 1667;
+		vrLoc = 259;
+	};
+	774015A8107FEB4700DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 34";
+		rLen = 0;
+		rLoc = 923;
+		rType = 0;
+		vrLen = 1639;
+		vrLoc = 290;
+	};
+	774015AA107FEB8600DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 206";
+		rLen = 0;
+		rLoc = 8260;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 6827;
+	};
+	774015AC107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 147;
+	};
+	774015AD107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 34;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	774015AE107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 205";
+		rLen = 45;
+		rLoc = 10303;
+		rType = 0;
+		vrLen = 2291;
+		vrLoc = 10546;
+	};
+	774015AF107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 257";
+		rLen = 26;
+		rLoc = 10324;
+		rType = 0;
+		vrLen = 1675;
+		vrLoc = 9175;
+	};
+	774015B0107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 257";
+		rLen = 26;
+		rLoc = 10324;
+		rType = 0;
+		vrLen = 1675;
+		vrLoc = 9175;
+	};
+	774015B1107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 42";
+		rLen = 51;
+		rLoc = 3266;
+		rType = 0;
+		vrLen = 2485;
+		vrLoc = 4117;
+	};
+	774015B2107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */;
+		name = "TimeClockAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 147;
+	};
+	774015B3107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
+		name = "TimeListViewController.h: 11";
+		rLen = 34;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	774015B4107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774014F3107FDB4A00DB5136 /* NSFetchedResultsController.h */;
+		name = "NSFetchedResultsController.h: 205";
+		rLen = 45;
+		rLoc = 10303;
+		rType = 0;
+		vrLen = 2291;
+		vrLoc = 10546;
+	};
+	774015B5107FEC5C00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 45";
+		rLen = 0;
+		rLoc = 1707;
+		rType = 0;
+		vrLen = 1709;
+		vrLoc = 782;
+	};
+	774015B8107FEDFD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774015B9107FEDFD00DB5136 /* NSManagedObjectContext.h */;
+		name = "NSManagedObjectContext.h: 202";
+		rLen = 134;
+		rLoc = 12688;
+		rType = 0;
+		vrLen = 3002;
+		vrLoc = 9834;
+	};
+	774015B9107FEDFD00DB5136 /* NSManagedObjectContext.h */ = {
+		isa = PBXFileReference;
+		name = NSManagedObjectContext.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSManagedObjectContext.h;
+		sourceTree = "<absolute>";
+	};
+	774015BA107FEDFD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 57";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1634;
+		vrLoc = 691;
+	};
+	774015BB107FEDFD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 57";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 1634;
+		vrLoc = 691;
+	};
+	774015BC107FEDFD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 774015BD107FEDFD00DB5136 /* NSManagedObjectContext.h */;
+		name = "NSManagedObjectContext.h: 202";
+		rLen = 134;
+		rLoc = 12688;
+		rType = 0;
+		vrLen = 3002;
+		vrLoc = 9834;
+	};
+	774015BD107FEDFD00DB5136 /* NSManagedObjectContext.h */ = {
+		isa = PBXFileReference;
+		name = NSManagedObjectContext.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSManagedObjectContext.h;
+		sourceTree = "<absolute>";
+	};
+	774015BE107FEDFD00DB5136 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
+		name = "TimeListViewController.m: 64";
+		rLen = 0;
+		rLoc = 2416;
+		rType = 0;
+		vrLen = 1649;
+		vrLoc = 1067;
 	};
 	77BBD311107E7155005936BA /* POC.h */ = {
 		uiCtxt = {
@@ -936,9 +4640,9 @@
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 784}}";
-			sepNavSelRange = "{348, 63}";
-			sepNavVisRange = "{0, 1343}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 756}}";
+			sepNavSelRange = "{366, 21}";
+			sepNavVisRange = "{0, 849}";
 		};
 	};
 	77BBD3A1107E7CDE005936BA /* PBXTextBookmark */ = {
@@ -966,7 +4670,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 18";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 0;
@@ -986,7 +4690,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 28";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1006,7 +4710,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 28";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1016,7 +4720,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1043,7 +4747,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 49";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 4;
@@ -1063,7 +4767,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 17";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 77;
 		vrLoc = 209;
@@ -1093,7 +4797,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 41";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 146;
 		vrLoc = 140;
@@ -1113,7 +4817,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 146;
 		vrLoc = 140;
@@ -1133,7 +4837,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 252;
 		vrLoc = 34;
@@ -1197,7 +4901,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 23";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 4;
@@ -1287,7 +4991,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 31";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1334,7 +5038,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 39";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1371,7 +5075,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 39";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1403,7 +5107,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1503,7 +5207,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1533,7 +5237,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 401;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1903,6 +5607,11 @@
 		name = UIView.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1656, 3010}}";
+			sepNavSelRange = "{7524, 15}";
+			sepNavVisRange = "{7273, 2968}";
+		};
 	};
 	77BBD4DF107EB25D005936BA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2017,16 +5726,16 @@
 	};
 	77BBD532107EBA81005936BA /* TimeListViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
-			sepNavSelRange = "{643, 0}";
-			sepNavVisRange = "{0, 977}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 561}}";
+			sepNavSelRange = "{232, 34}";
+			sepNavVisRange = "{0, 1084}";
 		};
 	};
 	77BBD533107EBA81005936BA /* TimeListViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1302, 3920}}";
-			sepNavSelRange = "{7286, 0}";
-			sepNavVisRange = "{6086, 2049}";
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 4774}}";
+			sepNavSelRange = "{2416, 0}";
+			sepNavVisRange = "{1067, 1696}";
 		};
 	};
 	77BBD539107EBA97005936BA /* PBXTextBookmark */ = {
@@ -2104,7 +5813,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 28";
 		rLen = 0;
-		rLoc = 1094;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 90;
@@ -2124,7 +5833,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 28";
 		rLen = 0;
-		rLoc = 1096;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 49;
@@ -2176,7 +5885,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 28";
 		rLen = 0;
-		rLoc = 1096;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 46;
@@ -2196,7 +5905,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 28";
 		rLen = 0;
-		rLoc = 1096;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1629;
 		vrLoc = 6600;
@@ -2233,7 +5942,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 899;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 0;
@@ -2243,7 +5952,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 17";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 497;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -2253,7 +5962,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 899;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 210;
@@ -2263,7 +5972,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 15";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -2273,7 +5982,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 899;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 188;
@@ -2283,7 +5992,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 15";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -2292,8 +6001,8 @@
 		isa = PBXTextBookmark;
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
-		rLen = 15;
-		rLoc = 915;
+		rLen = 0;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 188;
@@ -2320,7 +6029,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 15";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 0;
@@ -2330,7 +6039,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 15";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -2350,7 +6059,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 15";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 0;
@@ -2370,7 +6079,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 31";
 		rLen = 0;
-		rLoc = 1093;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1287;
 		vrLoc = 0;
@@ -2390,7 +6099,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 31";
 		rLen = 0;
-		rLoc = 1093;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1287;
 		vrLoc = 0;
@@ -2400,7 +6109,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2410,7 +6119,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 233";
 		rLen = 0;
-		rLoc = 7937;
+		rLoc = 10729;
 		rType = 0;
 		vrLen = 1725;
 		vrLoc = 7546;
@@ -2420,7 +6129,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2430,7 +6139,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 101";
 		rLen = 0;
-		rLoc = 2790;
+		rLoc = 5664;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 2081;
@@ -2440,7 +6149,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2459,8 +6168,8 @@
 		isa = PBXTextBookmark;
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
-		rLen = 15;
-		rLoc = 915;
+		rLen = 0;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 0;
@@ -2480,7 +6189,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2505,7 +6214,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 1031;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 153;
@@ -2520,7 +6229,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 1031;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 0;
@@ -2530,7 +6239,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2540,7 +6249,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 29";
 		rLen = 0;
-		rLoc = 1031;
+		rLoc = 3072;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 0;
@@ -2555,7 +6264,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 23";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 0;
@@ -2565,7 +6274,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2575,7 +6284,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 23";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 758;
 		rType = 0;
 		vrLen = 1298;
 		vrLoc = 0;
@@ -2585,7 +6294,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2595,7 +6304,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 18";
 		rLen = 0;
-		rLoc = 493;
+		rLoc = 565;
 		rType = 0;
 		vrLen = 1381;
 		vrLoc = 0;
@@ -2615,7 +6324,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2625,7 +6334,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 18";
 		rLen = 0;
-		rLoc = 481;
+		rLoc = 553;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 0;
@@ -2635,7 +6344,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 18";
 		rLen = 0;
-		rLoc = 481;
+		rLoc = 553;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 0;
@@ -2645,7 +6354,7 @@
 		fRef = 77BBD532107EBA81005936BA /* TimeListViewController.h */;
 		name = "TimeListViewController.h: 22";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 0;
@@ -2655,7 +6364,7 @@
 		fRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */;
 		name = "TimeListViewController.m: 18";
 		rLen = 0;
-		rLoc = 481;
+		rLoc = 553;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 0;

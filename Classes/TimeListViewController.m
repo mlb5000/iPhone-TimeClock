@@ -10,66 +10,116 @@
 #import "TimeEntry.h"
 #import "Client.h"
 
+#define PUNCH_IN @"Punch In"
+#define PUNCH_OUT @"Punch Out"
+
 @implementation TimeListViewController
 
 @synthesize fetchedResultsController, managedObjectContext, addingManagedObjectContext, tableView, punchButton;
 
-- (IBAction)punch:(id)sender {
-	if ([self.navigationItem.rightBarButtonItem.title isEqualToString:@"Punch In"]) {
-		self.navigationItem.rightBarButtonItem.title = @"Punch Out";
+- (IBAction)punch:(id)sender {		
+	if ([[self.punchButton titleForState:UIControlStateNormal] isEqualToString:@"Punch In"]) {
+		[self punchIn];
+		[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
 		return;
 	}
 	
-	self.navigationItem.rightBarButtonItem.title = @"Punch In";
+	[self punchOut];
+	[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];
+}
+
+- (void)punchOut {
+	TimeEntry *timeToUpdate = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
+	timeToUpdate.outTime = [NSDate date];
+	[self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+}
+
+- (void)punchIn {
+	// Create a new managed object context for the time entry -- set its persistent store coordinator to the same as that from the fetched results controller's context.
+	NSManagedObjectContext *addingContext = [[NSManagedObjectContext alloc] init];
+	self.addingManagedObjectContext = addingContext;
+	[addingContext release];
+	
+	[addingManagedObjectContext setPersistentStoreCoordinator:[[fetchedResultsController managedObjectContext] persistentStoreCoordinator]];
+	
+	TimeEntry *newTime = (TimeEntry *)[NSEntityDescription insertNewObjectForEntityForName:@"TimeEntry" inManagedObjectContext:self.addingManagedObjectContext];
+	newTime.inTime = [NSDate date];
+	
+	NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
+	[dnc addObserver:self selector:@selector(userPunchedIn:) name:NSManagedObjectContextDidSaveNotification object:addingManagedObjectContext];
+	
+	NSError *error;
+	if (![addingManagedObjectContext save:&error]) {
+		// Update to handle the error appropriately.
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+		exit(-1);  // Fail
+	}
+	
+	[dnc removeObserver:self name:NSManagedObjectContextDidSaveNotification object:addingManagedObjectContext];
+	
+	// Release the adding managed object context.
+	self.addingManagedObjectContext = nil;
+}
+
+- (void)userPunchedIn:(NSNotification *)saveNotification {
+	NSManagedObjectContext *context = [fetchedResultsController managedObjectContext];
+	// Merging changes causes the fetched results controller to update its results
+	[context mergeChangesFromContextDidSaveNotification:saveNotification];	
+}
+
+- (void)viewWillAppear {
+	[self.tableView reloadData];	
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.title = @"Time Entries";
+	self.title = @"TimeClock";
 	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-	
-	punchButton = [[UIBarButtonItem alloc] initWithTitle:@"Punch In" style:UIBarButtonItemStylePlain target:self action:@selector(punch:)];
-	self.navigationItem.rightBarButtonItem = self.punchButton;
-	
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(turnOnEditing)];
+
 	NSError *error;
 	if (![[self fetchedResultsController] performFetch:&error]) {
 		// Update to handle the error appropriately.
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		exit(-1);  // Fail
 	}
+	
+	[self initializePunchState];
 }
 
-/*
- - (void)viewWillAppear:(BOOL)animated {
- [super viewWillAppear:animated];
- }
- */
-/*
- - (void)viewDidAppear:(BOOL)animated {
- [super viewDidAppear:animated];
- }
- */
-/*
- - (void)viewWillDisappear:(BOOL)animated {
- [super viewWillDisappear:animated];
- }
- */
-/*
- - (void)viewDidDisappear:(BOOL)animated {
- [super viewDidDisappear:animated];
- }
- */
+- (void)turnOnEditing {
+	[self.navigationItem.rightBarButtonItem release];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(turnOffEditing)];
+	[self.tableView setEditing:YES animated:YES];
+}
 
-/*
+- (void)turnOffEditing {
+	[self.navigationItem.rightBarButtonItem release];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(turnOnEditing)];
+	[self.tableView setEditing:NO animated:YES];
+}
+
+- (void)initializePunchState {
+	if ([[fetchedResultsController fetchedObjects] count] == 0) {
+		[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];
+		return;
+	}
+	TimeEntry *lastEntry = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
+	if (lastEntry.outTime == nil) {
+		[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
+		return;
+	}
+	
+	[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];	
+}
+
  // Override to allow orientations other than the default portrait orientation.
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
- // Return YES for supported orientations
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	 // Return YES for supported orientations
+	 return YES;
  }
- */
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -81,21 +131,21 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+	self.punchButton = nil;
+	self.tableView = nil;
 }
-
 
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return [[fetchedResultsController sections] count];
 }
-
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+	id <NSFetchedResultsSectionInfo> sectionInfo = [[fetchedResultsController sections] objectAtIndex:section];
+	return [sectionInfo numberOfObjects];
 }
-
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -104,13 +154,13 @@
     
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+		cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     }
     
     [self configureCell:cell atIndexPath:indexPath];	
     return cell;
 }
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
@@ -119,45 +169,35 @@
 	// [anotherViewController release];
 }
 
-
-/*
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the specified item to be editable.
- return YES;
+	 // Return NO if you do not want the specified item to be editable.
+	 return YES;
  }
- */
 
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+		
+		// Delete the managed object.
+		NSManagedObjectContext *context = [fetchedResultsController managedObjectContext];
+		[context deleteObject:[fetchedResultsController objectAtIndexPath:indexPath]];
+		
+		NSError *error;
+		if (![context save:&error]) {
+			// Update to handle the error appropriately.
+			NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+			exit(-1);  // Fail
+		}
+    }   
+}
 
-/*
- // Override to support editing the table view.
- - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
- 
- if (editingStyle == UITableViewCellEditingStyleDelete) {
- // Delete the row from the data source
- [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
- }   
- else if (editingStyle == UITableViewCellEditingStyleInsert) {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
- }   
- }
- */
-
-
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
- }
- */
-
-
-/*
  // Override to support conditional rearranging of the table view.
  - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
+	 // Return NO if you do not want the item to be re-orderable.
+	 return NO;
  }
- */
+
 
 #pragma mark -
 #pragma mark Fetched results controller
@@ -177,7 +217,7 @@
 	[fetchRequest setEntity:entity];
 	
 	// Create the sort descriptors array.
-	NSSortDescriptor *punchTimes = [[NSSortDescriptor alloc] initWithKey:@"notes" ascending:NO];
+	NSSortDescriptor *punchTimes = [[NSSortDescriptor alloc] initWithKey:@"inTime" ascending:NO];
 	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:punchTimes, nil];
 	[fetchRequest setSortDescriptors:sortDescriptors];
 	
@@ -201,7 +241,7 @@
     if (dateFormatter == nil) {
         dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
-        [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+        [dateFormatter setDateStyle:NSDateFormatterShortStyle];
     }
 	
     // A number formatter for the latitude and longitude	
@@ -216,7 +256,7 @@
 	
     cell.textLabel.text = [NSString stringWithFormat:@"%@-%@", 
 						   [dateFormatter stringFromDate:[entry inTime]],
-						   [dateFormatter stringFromDate:[entry outTime]]];
+						   [entry outTime] == nil ? @"" : [dateFormatter stringFromDate:[entry outTime]]];
     NSString *string = [NSString stringWithFormat:@"%@, %@hrs",
 						entry.client.name,
 						[numberFormatter stringFromNumber:[entry totalTime]]];
@@ -235,22 +275,27 @@
 
 
 - (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type newIndexPath:(NSIndexPath *)newIndexPath {
-	
+	NSLog(@"didChangeObject called.");
 	switch(type) {
 			
 		case NSFetchedResultsChangeInsert:
+			NSLog(@"Did insert.");
 			[self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
 			break;
 			
 		case NSFetchedResultsChangeDelete:
+			NSLog(@"Did delete.");
 			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+			[self initializePunchState];
 			break;
 			
 		case NSFetchedResultsChangeUpdate:
+			NSLog(@"Did update.");
 			[self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
 			break;
 			
 		case NSFetchedResultsChangeMove:
+			NSLog(@"Did move.");
 			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
 			// Reloading the section inserts a new row and ensures that titles are updated appropriately.
 			[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:newIndexPath.section] withRowAnimation:UITableViewRowAnimationFade];
@@ -286,6 +331,7 @@
 	[managedObjectContext release];
 	[addingManagedObjectContext release];
 	[punchButton release];
+	[tableView release];
     [super dealloc];
 }
 

@@ -12,14 +12,19 @@
 	NSFetchedResultsController *fetchedResultsController;
 	NSManagedObjectContext *managedObjectContext;	    
 	NSManagedObjectContext *addingManagedObjectContext;	
-	UIBarButtonItem *punchButton;
+	IBOutlet UIButton *punchButton;
 	IBOutlet UITableView *tableView;
 }
 
 - (IBAction)punch:(id)sender;
+- (void)punchIn;
+- (void)punchOut;
+- (void)turnOnEditing;
+- (void)turnOffEditing;
+- (void)initializePunchState;
 
 @property (nonatomic, retain) UITableView *tableView;
-@property (nonatomic, retain) UIBarButtonItem *punchButton;
+@property (nonatomic, retain) UIButton *punchButton;
 @property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) NSManagedObjectContext *addingManagedObjectContext;

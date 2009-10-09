@@ -18,7 +18,8 @@
 @dynamic client;
 
 - (NSNumber *)totalTime {
-	return [NSNumber numberWithDouble:[self.outTime timeIntervalSinceDate:self.inTime]];
+	NSDate *endTime = self.outTime == nil ? [NSDate date] : self.outTime;
+	return [NSNumber numberWithDouble:[endTime timeIntervalSinceDate:self.inTime]/3600];
 }
 
 @end
