@@ -465,15 +465,15 @@
 	774013F7107ECD1F00DB5136 /* TimeEntry.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 433}";
+			sepNavSelRange = "{338, 6}";
+			sepNavVisRange = "{0, 459}";
 		};
 	};
 	774013F8107ECD1F00DB5136 /* TimeEntry.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {949, 718}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 286}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{0, 401}";
 		};
 	};
 	77BBD311107E7155005936BA /* POC.h */ = {
@@ -897,7 +897,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 18";
 		rLen = 5;
-		rLoc = 353;
+		rLoc = 379;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -935,6 +935,11 @@
 		name = NSDate.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 784}}";
+			sepNavSelRange = "{348, 63}";
+			sepNavVisRange = "{0, 1343}";
+		};
 	};
 	77BBD3A1107E7CDE005936BA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -951,7 +956,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -961,7 +966,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 18";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 0;
@@ -971,7 +976,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -981,7 +986,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 28";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -991,7 +996,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1001,7 +1006,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 28";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1011,7 +1016,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1038,7 +1043,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 49";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 4;
@@ -1048,7 +1053,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 21";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1058,7 +1063,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 17";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 77;
 		vrLoc = 209;
@@ -1068,7 +1073,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1088,7 +1093,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 41";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 146;
 		vrLoc = 140;
@@ -1098,7 +1103,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1108,7 +1113,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 146;
 		vrLoc = 140;
@@ -1128,7 +1133,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 45";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 252;
 		vrLoc = 34;
@@ -1148,7 +1153,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1192,7 +1197,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 23";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 4;
@@ -1212,7 +1217,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1232,7 +1237,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1252,7 +1257,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1282,7 +1287,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 31";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1319,7 +1324,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1329,7 +1334,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 39";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1356,7 +1361,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1366,7 +1371,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 39";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1387,13 +1392,18 @@
 		name = NSValue.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 1638}}";
+			sepNavSelRange = "{778, 30}";
+			sepNavVisRange = "{0, 1250}";
+		};
 	};
 	77BBD40E107E84BE005936BA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 57;
 		vrLoc = 229;
@@ -1463,7 +1473,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 20";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1493,7 +1503,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1503,7 +1513,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 21";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1513,7 +1523,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -1523,7 +1533,7 @@
 		fRef = 77BBD314107E7155005936BA /* TimeEntry.m */;
 		name = "TimeEntry.m: 62";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -1533,7 +1543,7 @@
 		fRef = 77BBD313107E7155005936BA /* TimeEntry.h */;
 		name = "TimeEntry.h: 21";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 459;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -2014,9 +2024,9 @@
 	};
 	77BBD533107EBA81005936BA /* TimeListViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1302, 4198}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 3920}}";
 			sepNavSelRange = "{7286, 0}";
-			sepNavVisRange = "{6111, 2014}";
+			sepNavVisRange = "{6086, 2049}";
 		};
 	};
 	77BBD539107EBA97005936BA /* PBXTextBookmark */ = {
