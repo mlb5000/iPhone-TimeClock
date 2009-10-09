@@ -7,20 +7,38 @@
 //
 
 #import "TimeClockAppDelegate.h"
-
+#import "TimeListViewController.h"
 
 @implementation TimeClockAppDelegate
 
 @synthesize window;
-
+@synthesize tabBarController;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-    
-    // Override point for customization after app launch    
-
+    NSMutableArray *controllers = [[NSMutableArray alloc] init];
+	
+	TimeListViewController *timeList = [[TimeListViewController alloc] init];
+	timeList.managedObjectContext = self.managedObjectContext;
+	UINavigationController *navController = [[UINavigationController alloc] init];
+	[navController pushViewController:timeList animated:NO];	
+	[timeList release];
+	
+	[controllers addObject:navController];
+	[navController release];
+	
+    // Override point for customization after app launch
+    UITabBarController *tempTabBarController = [[UITabBarController alloc] init];
+	
+	// Set the array of view controllers
+	tempTabBarController.viewControllers = controllers;
+	[controllers release];
+	
+	self.tabBarController = tempTabBarController;
+	[tempTabBarController release];
+	[window addSubview:tabBarController.view];
 	[window makeKeyAndVisible];
 }
 
@@ -106,6 +124,7 @@
 		 Check the error message to determine what the actual problem was.
 		 */
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+		NSLog(@"Cannot access persistent store.");
 		abort();
     }    
 	
@@ -133,6 +152,7 @@
     [managedObjectModel release];
     [persistentStoreCoordinator release];
     
+	[tabBarController release];
 	[window release];
 	[super dealloc];
 }
