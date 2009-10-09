@@ -12,15 +12,14 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		28AD733F0D9D9553002E5188 /* TimeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* TimeListViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28C3AD8A0F43EF2300507BA6 /* TimeClock.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		774013F9107ECD1F00DB5136 /* TimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */; };
 		77BBD319107E7155005936BA /* POC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD312107E7155005936BA /* POC.m */; };
-		77BBD31A107E7155005936BA /* TimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD314107E7155005936BA /* TimeEntry.m */; };
-		77BBD31B107E7155005936BA /* Punch.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD316107E7155005936BA /* Punch.m */; };
 		77BBD31C107E7155005936BA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD318107E7155005936BA /* Client.m */; };
 		77BBD535107EBA81005936BA /* TimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */; };
-		77BBD55D107EBFE3005936BA /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BBD55C107EBFE3005936BA /* MainView.xib */; };
+		77BBD55D107EBFE3005936BA /* TimeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BBD55C107EBFE3005936BA /* TimeListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,22 +29,20 @@
 		1D6058910D05DD3D006BFB54 /* TimeClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* TimeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeListViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = TimeClock.xcdatamodel; sourceTree = "<group>"; };
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClock_Prefix.pch; sourceTree = "<group>"; };
+		774013F7107ECD1F00DB5136 /* TimeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEntry.h; path = ../TimeEntry.h; sourceTree = "<group>"; };
+		774013F8107ECD1F00DB5136 /* TimeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEntry.m; path = ../TimeEntry.m; sourceTree = "<group>"; };
 		77BBD311107E7155005936BA /* POC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POC.h; path = ../POC.h; sourceTree = "<group>"; };
 		77BBD312107E7155005936BA /* POC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POC.m; path = ../POC.m; sourceTree = "<group>"; };
-		77BBD313107E7155005936BA /* TimeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEntry.h; path = ../TimeEntry.h; sourceTree = "<group>"; };
-		77BBD314107E7155005936BA /* TimeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEntry.m; path = ../TimeEntry.m; sourceTree = "<group>"; };
-		77BBD315107E7155005936BA /* Punch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Punch.h; path = ../Punch.h; sourceTree = "<group>"; };
-		77BBD316107E7155005936BA /* Punch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Punch.m; path = ../Punch.m; sourceTree = "<group>"; };
 		77BBD317107E7155005936BA /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = ../Client.h; sourceTree = "<group>"; };
 		77BBD318107E7155005936BA /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = ../Client.m; sourceTree = "<group>"; };
 		77BBD532107EBA81005936BA /* TimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeListViewController.h; sourceTree = "<group>"; };
 		77BBD533107EBA81005936BA /* TimeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeListViewController.m; sourceTree = "<group>"; };
-		77BBD55C107EBFE3005936BA /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		77BBD55C107EBFE3005936BA /* TimeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeListViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TimeClock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimeClock-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,12 +64,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				774013F7107ECD1F00DB5136 /* TimeEntry.h */,
+				774013F8107ECD1F00DB5136 /* TimeEntry.m */,
 				77BBD311107E7155005936BA /* POC.h */,
 				77BBD312107E7155005936BA /* POC.m */,
-				77BBD313107E7155005936BA /* TimeEntry.h */,
-				77BBD314107E7155005936BA /* TimeEntry.m */,
-				77BBD315107E7155005936BA /* Punch.h */,
-				77BBD316107E7155005936BA /* Punch.m */,
 				77BBD317107E7155005936BA /* Client.h */,
 				77BBD318107E7155005936BA /* Client.m */,
 				1D3623240D0F684500981E51 /* TimeClockAppDelegate.h */,
@@ -116,9 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */,
-				28AD733E0D9D9553002E5188 /* TimeListViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TimeClock-Info.plist */,
-				77BBD55C107EBFE3005936BA /* MainView.xib */,
+				77BBD55C107EBFE3005936BA /* TimeListViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,8 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* TimeListViewController.xib in Resources */,
-				77BBD55D107EBFE3005936BA /* MainView.xib in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				77BBD55D107EBFE3005936BA /* TimeListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +187,9 @@
 				1D3623260D0F684500981E51 /* TimeClockAppDelegate.m in Sources */,
 				28C3AD8A0F43EF2300507BA6 /* TimeClock.xcdatamodel in Sources */,
 				77BBD319107E7155005936BA /* POC.m in Sources */,
-				77BBD31A107E7155005936BA /* TimeEntry.m in Sources */,
-				77BBD31B107E7155005936BA /* Punch.m in Sources */,
 				77BBD31C107E7155005936BA /* Client.m in Sources */,
 				77BBD535107EBA81005936BA /* TimeListViewController.m in Sources */,
+				774013F9107ECD1F00DB5136 /* TimeEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
