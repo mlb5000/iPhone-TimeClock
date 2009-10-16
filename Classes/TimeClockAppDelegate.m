@@ -8,6 +8,7 @@
 
 #import "TimeClockAppDelegate.h"
 #import "TimeListViewController.h"
+#import "ClientListViewController.h"
 
 @implementation TimeClockAppDelegate
 
@@ -20,14 +21,30 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     NSMutableArray *controllers = [[NSMutableArray alloc] init];
 	
+	//Add Time list tab
 	TimeListViewController *timeList = [[TimeListViewController alloc] init];
 	timeList.managedObjectContext = self.managedObjectContext;
+	timeList.title = @"TimeClock";
+	timeList.tabBarItem.image = [UIImage imageNamed:@"clock.jpg"];
 	UINavigationController *navController = [[UINavigationController alloc] init];
 	[navController pushViewController:timeList animated:NO];	
 	[timeList release];
 	
+	//Add client list tab
+	ClientListViewController *clientList = [[ClientListViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	clientList.managedObjectContext = self.managedObjectContext;
+	clientList.title = @"Clients";
+	UINavigationController *clientNavController = [[UINavigationController alloc] init];
+	[clientNavController pushViewController:clientList animated:NO];
+	[clientList release];
+	
+	//Add Reports tab
+	//Add Settings tab
+	
+	[controllers addObject:clientNavController];
 	[controllers addObject:navController];
 	[navController release];
+	[clientNavController release];
 	
     // Override point for customization after app launch
     UITabBarController *tempTabBarController = [[UITabBarController alloc] init];
@@ -60,7 +77,6 @@
         } 
     }
 }
-
 
 #pragma mark -
 #pragma mark Core Data stack

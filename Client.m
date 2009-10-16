@@ -8,13 +8,15 @@
 
 #import "Client.h"
 
-#import "POC.h"
+#import "TimeEntry.h"
 
 @implementation Client 
 
 @dynamic rate;
 @dynamic name;
 @dynamic website;
-@dynamic poc;
+@dynamic pocName;
+@dynamic pocPhone;
+@dynamic entries;
 
 @end

@@ -16,7 +16,18 @@
 		28C3AD8A0F43EF2300507BA6 /* TimeClock.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		774013F9107ECD1F00DB5136 /* TimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 774013F8107ECD1F00DB5136 /* TimeEntry.m */; };
-		77BBD319107E7155005936BA /* POC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD312107E7155005936BA /* POC.m */; };
+		774016971080196400DB5136 /* ClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774016951080196400DB5136 /* ClientListViewController.m */; };
+		774016981080196400DB5136 /* ClientListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774016961080196400DB5136 /* ClientListViewController.xib */; };
+		77401711108027AC00DB5136 /* AddClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740170F108027AC00DB5136 /* AddClientViewController.m */; };
+		77401712108027AC00DB5136 /* AddClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77401710108027AC00DB5136 /* AddClientViewController.xib */; };
+		774017F7108038BC00DB5136 /* ClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774017F6108038BC00DB5136 /* ClientDetailViewController.m */; };
+		774017FC10803B0400DB5136 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 774017FB10803B0400DB5136 /* Localizable.strings */; };
+		774017FE10803BA000DB5136 /* EditingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774017FD10803BA000DB5136 /* EditingView.xib */; };
+		7740180210803CBF00DB5136 /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740180110803CBF00DB5136 /* EditingViewController.m */; };
+		7740191F10804BBA00DB5136 /* TimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740191E10804BBA00DB5136 /* TimeDetailViewController.m */; };
+		774019D810805C7600DB5136 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 774019D710805C7600DB5136 /* clock.png */; };
+		77401A1C1080E2CA00DB5136 /* Break.m in Sources */ = {isa = PBXBuildFile; fileRef = 77401A1B1080E2CA00DB5136 /* Break.m */; };
+		77A9DF7910840F2800279E72 /* dotNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A9DF7810840F2800279E72 /* dotNormal.png */; };
 		77BBD31C107E7155005936BA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD318107E7155005936BA /* Client.m */; };
 		77BBD535107EBA81005936BA /* TimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */; };
 		77BBD55D107EBFE3005936BA /* TimeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BBD55C107EBFE3005936BA /* TimeListViewController.xib */; };
@@ -36,8 +47,24 @@
 		32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClock_Prefix.pch; sourceTree = "<group>"; };
 		774013F7107ECD1F00DB5136 /* TimeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntry.h; sourceTree = "<group>"; };
 		774013F8107ECD1F00DB5136 /* TimeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntry.m; sourceTree = "<group>"; };
-		77BBD311107E7155005936BA /* POC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POC.h; sourceTree = "<group>"; };
-		77BBD312107E7155005936BA /* POC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POC.m; sourceTree = "<group>"; };
+		774016941080196400DB5136 /* ClientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientListViewController.h; path = Classes/ClientListViewController.h; sourceTree = "<group>"; };
+		774016951080196400DB5136 /* ClientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientListViewController.m; path = Classes/ClientListViewController.m; sourceTree = "<group>"; };
+		774016961080196400DB5136 /* ClientListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ClientListViewController.xib; path = Classes/ClientListViewController.xib; sourceTree = "<group>"; };
+		7740170E108027AC00DB5136 /* AddClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddClientViewController.h; path = Classes/AddClientViewController.h; sourceTree = "<group>"; };
+		7740170F108027AC00DB5136 /* AddClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddClientViewController.m; path = Classes/AddClientViewController.m; sourceTree = "<group>"; };
+		77401710108027AC00DB5136 /* AddClientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddClientViewController.xib; path = Classes/AddClientViewController.xib; sourceTree = "<group>"; };
+		774017F5108038BC00DB5136 /* ClientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientDetailViewController.h; sourceTree = "<group>"; };
+		774017F6108038BC00DB5136 /* ClientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientDetailViewController.m; sourceTree = "<group>"; };
+		774017FB10803B0400DB5136 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		774017FD10803BA000DB5136 /* EditingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditingView.xib; sourceTree = "<group>"; };
+		7740180010803CBF00DB5136 /* EditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingViewController.h; sourceTree = "<group>"; };
+		7740180110803CBF00DB5136 /* EditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
+		7740191D10804BBA00DB5136 /* TimeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDetailViewController.h; sourceTree = "<group>"; };
+		7740191E10804BBA00DB5136 /* TimeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDetailViewController.m; sourceTree = "<group>"; };
+		774019D710805C7600DB5136 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		77401A1A1080E2CA00DB5136 /* Break.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Break.h; sourceTree = "<group>"; };
+		77401A1B1080E2CA00DB5136 /* Break.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Break.m; sourceTree = "<group>"; };
+		77A9DF7810840F2800279E72 /* dotNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotNormal.png; sourceTree = "<group>"; };
 		77BBD317107E7155005936BA /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		77BBD318107E7155005936BA /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
 		77BBD532107EBA81005936BA /* TimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeListViewController.h; sourceTree = "<group>"; };
@@ -61,13 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Controllers */ = {
+		080E96DDFE201D6D7F000001 /* TimeEntry Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				77BBD532107EBA81005936BA /* TimeListViewController.h */,
 				77BBD533107EBA81005936BA /* TimeListViewController.m */,
+				7740191D10804BBA00DB5136 /* TimeDetailViewController.h */,
+				7740191E10804BBA00DB5136 /* TimeDetailViewController.m */,
 			);
-			name = Controllers;
+			name = "TimeEntry Controllers";
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -82,9 +111,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				774017ED1080331300DB5136 /* Reports Controllers */,
 				774015C0107FEEA000DB5136 /* Application Delegate */,
 				774015BF107FEE8900DB5136 /* Model Classes */,
-				080E96DDFE201D6D7F000001 /* Controllers */,
+				774017EC1080330800DB5136 /* Client Controllers */,
+				080E96DDFE201D6D7F000001 /* TimeEntry Controllers */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -105,10 +136,16 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				77A9DF7810840F2800279E72 /* dotNormal.png */,
+				774019D710805C7600DB5136 /* clock.png */,
+				77401710108027AC00DB5136 /* AddClientViewController.xib */,
+				774016961080196400DB5136 /* ClientListViewController.xib */,
 				28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TimeClock-Info.plist */,
 				77BBD55C107EBFE3005936BA /* TimeListViewController.xib */,
+				774017FB10803B0400DB5136 /* Localizable.strings */,
+				774017FD10803BA000DB5136 /* EditingView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -127,10 +164,10 @@
 		774015BF107FEE8900DB5136 /* Model Classes */ = {
 			isa = PBXGroup;
 			children = (
+				77401A1A1080E2CA00DB5136 /* Break.h */,
+				77401A1B1080E2CA00DB5136 /* Break.m */,
 				774013F7107ECD1F00DB5136 /* TimeEntry.h */,
 				774013F8107ECD1F00DB5136 /* TimeEntry.m */,
-				77BBD311107E7155005936BA /* POC.h */,
-				77BBD312107E7155005936BA /* POC.m */,
 				77BBD317107E7155005936BA /* Client.h */,
 				77BBD318107E7155005936BA /* Client.m */,
 			);
@@ -144,6 +181,28 @@
 				1D3623250D0F684500981E51 /* TimeClockAppDelegate.m */,
 			);
 			name = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		774017EC1080330800DB5136 /* Client Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				774016941080196400DB5136 /* ClientListViewController.h */,
+				774016951080196400DB5136 /* ClientListViewController.m */,
+				7740170E108027AC00DB5136 /* AddClientViewController.h */,
+				7740170F108027AC00DB5136 /* AddClientViewController.m */,
+				774017F5108038BC00DB5136 /* ClientDetailViewController.h */,
+				774017F6108038BC00DB5136 /* ClientDetailViewController.m */,
+				7740180010803CBF00DB5136 /* EditingViewController.h */,
+				7740180110803CBF00DB5136 /* EditingViewController.m */,
+			);
+			name = "Client Controllers";
+			sourceTree = "<group>";
+		};
+		774017ED1080331300DB5136 /* Reports Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Reports Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +249,12 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				77BBD55D107EBFE3005936BA /* TimeListViewController.xib in Resources */,
+				774016981080196400DB5136 /* ClientListViewController.xib in Resources */,
+				77401712108027AC00DB5136 /* AddClientViewController.xib in Resources */,
+				774017FC10803B0400DB5136 /* Localizable.strings in Resources */,
+				774017FE10803BA000DB5136 /* EditingView.xib in Resources */,
+				774019D810805C7600DB5136 /* clock.png in Resources */,
+				77A9DF7910840F2800279E72 /* dotNormal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +268,15 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TimeClockAppDelegate.m in Sources */,
 				28C3AD8A0F43EF2300507BA6 /* TimeClock.xcdatamodel in Sources */,
-				77BBD319107E7155005936BA /* POC.m in Sources */,
 				77BBD31C107E7155005936BA /* Client.m in Sources */,
 				77BBD535107EBA81005936BA /* TimeListViewController.m in Sources */,
 				774013F9107ECD1F00DB5136 /* TimeEntry.m in Sources */,
+				774016971080196400DB5136 /* ClientListViewController.m in Sources */,
+				77401711108027AC00DB5136 /* AddClientViewController.m in Sources */,
+				774017F7108038BC00DB5136 /* ClientDetailViewController.m in Sources */,
+				7740180210803CBF00DB5136 /* EditingViewController.m in Sources */,
+				7740191F10804BBA00DB5136 /* TimeDetailViewController.m in Sources */,
+				77401A1C1080E2CA00DB5136 /* Break.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

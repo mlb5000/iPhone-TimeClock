@@ -7,6 +7,7 @@
 //
 
 #import "TimeListViewController.h"
+#import "TimeDetailViewController.h"
 #import "TimeEntry.h"
 #import "Client.h"
 
@@ -17,21 +18,23 @@
 
 @synthesize fetchedResultsController, managedObjectContext, addingManagedObjectContext, tableView, punchButton;
 
-- (IBAction)punch:(id)sender {		
-	if ([[self.punchButton titleForState:UIControlStateNormal] isEqualToString:@"Punch In"]) {
-		[self punchIn];
-		[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
-		return;
+- (IBAction)punch:(id)sender {	
+	if ([[fetchedResultsController fetchedObjects] count] > 0) {
+		TimeEntry *timeToUpdate = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
+		if (timeToUpdate.currentState == TimeEntryStateShiftBegun) {
+			[self punchOut];
+			return;
+		}
 	}
 	
-	[self punchOut];
-	[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];
+	[self punchIn];
 }
 
 - (void)punchOut {
 	TimeEntry *timeToUpdate = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
-	timeToUpdate.outTime = [NSDate date];
+	[timeToUpdate punchDay];
 	[self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+	[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];
 }
 
 - (void)punchIn {
@@ -43,7 +46,7 @@
 	[addingManagedObjectContext setPersistentStoreCoordinator:[[fetchedResultsController managedObjectContext] persistentStoreCoordinator]];
 	
 	TimeEntry *newTime = (TimeEntry *)[NSEntityDescription insertNewObjectForEntityForName:@"TimeEntry" inManagedObjectContext:self.addingManagedObjectContext];
-	newTime.inTime = [NSDate date];
+	[newTime punchDay];
 	
 	NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
 	[dnc addObserver:self selector:@selector(userPunchedIn:) name:NSManagedObjectContextDidSaveNotification object:addingManagedObjectContext];
@@ -59,12 +62,23 @@
 	
 	// Release the adding managed object context.
 	self.addingManagedObjectContext = nil;
+	[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
 }
 
 - (void)userPunchedIn:(NSNotification *)saveNotification {
 	NSManagedObjectContext *context = [fetchedResultsController managedObjectContext];
 	// Merging changes causes the fetched results controller to update its results
 	[context mergeChangesFromContextDidSaveNotification:saveNotification];	
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
+	[self becomeFirstResponder];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+	[self resignFirstResponder];
+	[super viewDidDisappear:animated];
 }
 
 - (void)viewWillAppear {
@@ -89,6 +103,17 @@
 	[self initializePunchState];
 }
 
+- (BOOL)canBecomeFirstResponder {
+	return YES;
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+	if (motion == UIEventTypeMotion && event.type == UIEventSubtypeMotionShake) {
+		NSLog(@"%@ motionEnded", [NSDate date]);
+		//[self punch:self];
+	}
+}
+
 - (void)turnOnEditing {
 	[self.navigationItem.rightBarButtonItem release];
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(turnOffEditing)];
@@ -102,14 +127,12 @@
 }
 
 - (void)initializePunchState {
-	if ([[fetchedResultsController fetchedObjects] count] == 0) {
-		[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];
-		return;
-	}
-	TimeEntry *lastEntry = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
-	if (lastEntry.outTime == nil) {
-		[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
-		return;
+	if ([[fetchedResultsController fetchedObjects] count] > 0) {
+		TimeEntry *lastEntry = (TimeEntry *)[[fetchedResultsController fetchedObjects] objectAtIndex:0];
+		if (lastEntry.currentState == TimeEntryStateShiftBegun) {
+			[self.punchButton setTitle:PUNCH_OUT forState:UIControlStateNormal];
+			return;
+		}
 	}
 	
 	[self.punchButton setTitle:PUNCH_IN forState:UIControlStateNormal];	
@@ -155,7 +178,7 @@
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-		cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     [self configureCell:cell atIndexPath:indexPath];	
@@ -163,10 +186,17 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	// Create and push a detail view controller.
+	TimeDetailViewController *detailViewController = [[TimeDetailViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    TimeEntry *selectedEntry = (TimeEntry *)[[self fetchedResultsController] objectAtIndexPath:indexPath];
+    // Pass the selected entry to the new view controller.
+    detailViewController.entry = selectedEntry;
+	[self.navigationController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
+	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
 }
 
  // Override to support conditional editing of the table view.
@@ -197,6 +227,10 @@
 	 // Return NO if you do not want the item to be re-orderable.
 	 return NO;
  }
+
+- (BOOL)tableView:(UITableView *)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath *)indexPath {
+	return NO;
+}
 
 
 #pragma mark -
@@ -279,23 +313,20 @@
 	switch(type) {
 			
 		case NSFetchedResultsChangeInsert:
-			NSLog(@"Did insert.");
 			[self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
 			break;
 			
 		case NSFetchedResultsChangeDelete:
-			NSLog(@"Did delete.");
 			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
 			[self initializePunchState];
 			break;
 			
 		case NSFetchedResultsChangeUpdate:
-			NSLog(@"Did update.");
 			[self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+			[self initializePunchState];
 			break;
 			
 		case NSFetchedResultsChangeMove:
-			NSLog(@"Did move.");
 			[self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
 			// Reloading the section inserts a new row and ensures that titles are updated appropriately.
 			[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:newIndexPath.section] withRowAnimation:UITableViewRowAnimationFade];

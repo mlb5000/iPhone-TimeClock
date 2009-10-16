@@ -8,7 +8,7 @@
 
 #import <CoreData/CoreData.h>
 
-@class POC;
+@class TimeEntry;
 
 @interface Client :  NSManagedObject  
 {
@@ -17,7 +17,17 @@
 @property (nonatomic, retain) NSNumber * rate;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * website;
-@property (nonatomic, retain) POC * poc;
+@property (nonatomic, retain) NSString * pocName;
+@property (nonatomic, retain) NSString * pocPhone;
+@property (nonatomic, retain) NSSet *entries;
+
+@end
+
+@interface Client (CoreDataGeneratedAccessors)
+- (void)addEntriesObject:(TimeEntry *)value;
+- (void)removeEntriesObject:(TimeEntry *)value;
+- (void)addEntries:(NSSet *)value;
+- (void)removeEntries:(NSSet *)value;
 
 @end
 
