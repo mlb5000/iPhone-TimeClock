@@ -95,6 +95,9 @@
 	else if (self.editType == EditingViewControllerTypeString) {
         [editedObject setValue:textField.text forKey:editedFieldKey];
     }
+	else if (self.editType == EditingViewControllerTypePhone) {
+		[editedObject setValue:textField.text forKey:editedFieldKey];
+	}
 	
     [self.navigationController popViewControllerAnimated:YES];
 }

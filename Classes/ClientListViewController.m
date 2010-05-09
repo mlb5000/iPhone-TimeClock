@@ -8,8 +8,6 @@
 
 #import "ClientListViewController.h"
 #import "ClientDetailViewController.h"
-#import "Client.h"
-#import "TimeEntry.h"
 
 @implementation ClientListViewController
 
@@ -138,29 +136,45 @@
 	//add new time entry with the selected client or update the latest one
 	//if the selected client has some time entries, then punch
 	Client *selectedClient = [[fetchedResultsController fetchedObjects] objectAtIndex:indexPath.row];
-	if ([selectedClient.entries count] > 0) {
-		TimeEntry *latest = [[selectedClient.entries allObjects] objectAtIndex:0];
-		//if the latest entry has only been punched in, punch out
-		if (latest.currentState == TimeEntryStateShiftBegun) {
-			NSLog(@"Shift has begun, punching out.");
-			[latest punchDay];
-			[self saveState];
-			[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-			return;
-		}
-		//otherwise, create a new entry
+	TimeEntry *timeEntry;
+	if ([selectedClient.entries count] > 0 && 
+		((TimeEntry*)[[selectedClient.entries allObjects] objectAtIndex:0]).currentState != TimeEntryStateShiftEnded) {
+		timeEntry = [[selectedClient.entries allObjects] objectAtIndex:0];
 	}
 	else {
-		NSLog(@"No time entries!");
+		NSLog(@"No time entries or user not on the clock!");
+		timeEntry = (TimeEntry *)[NSEntityDescription insertNewObjectForEntityForName:@"TimeEntry" inManagedObjectContext:managedObjectContext];
+		timeEntry.client = selectedClient;
+		[selectedClient addEntriesObject:timeEntry];
 	}
-
-	TimeEntry *newEntry = (TimeEntry *)[NSEntityDescription insertNewObjectForEntityForName:@"TimeEntry" inManagedObjectContext:managedObjectContext];
-	[newEntry punchDay];
-	newEntry.client = selectedClient;
-	[selectedClient addEntriesObject:newEntry];
-	[self saveState];
 	
 	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+	[self displayPunchDialogWithEntry:timeEntry];
+}
+
+- (void)displayPunchDialogWithEntry:(TimeEntry *)entry {
+	PunchDialog *punchDialog = [[PunchDialog alloc] init];
+	punchDialog.timeEntry = entry;
+	punchDialog.delegate = self;
+
+	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:punchDialog];
+	
+    [self.navigationController presentModalViewController:navController animated:YES];
+	
+	[punchDialog release];
+	[navController release];
+}
+
+- (void)punchDialogViewController:(PunchDialog *)controller didFinishWithCancel:(BOOL)cancel {
+	if (!cancel) {
+		NSLog(@"User didn't cancel.  Saving entry");
+		[self saveState];
+	}
+	else {
+		NSLog(@"User cancelled.");
+	}
+	
+	[self.navigationController dismissModalViewControllerAnimated:YES];
 }
 
 - (void)saveState {

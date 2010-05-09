@@ -36,14 +36,14 @@ typedef enum {
 //forIsExplicitOvertime makes this entry time and a half from beginning to end
 //overtime resulting from more than 40 hours in a week is calculated someplace else
 - (void)punchDay;
-- (void)punchBreak;
+- (void)punchBreak:(NSManagedObjectContext *)managedObjectContext;
  
 @property (nonatomic, retain) NSString * notes;
 @property (nonatomic, retain) NSDate * outTime;
 @property (nonatomic, retain) NSDate * inTime;
 @property (nonatomic, retain) Client * client;
 @property (nonatomic, retain) NSSet *breaks;
-@property BOOL isOvertime;
+@property (nonatomic, retain) NSNumber * isOvertime;
 @property (nonatomic, readonly) TimeEntryState currentState;
 
 @end

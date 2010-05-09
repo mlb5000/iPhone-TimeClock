@@ -14,4 +14,12 @@
 @dynamic outTime;
 @dynamic inTime;
 
+- (void)startBreak {
+	self.inTime = [NSDate date];
+}
+
+- (void)endBreak {
+	self.outTime = [NSDate date];
+}
+
 @end

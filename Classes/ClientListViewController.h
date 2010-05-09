@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AddClientViewController.h"
+#import "PunchDialog.h"
 
-@interface ClientListViewController : UITableViewController <NSFetchedResultsControllerDelegate, AddClientViewControllerDelegate> {
+@interface ClientListViewController : UITableViewController <NSFetchedResultsControllerDelegate, AddClientViewControllerDelegate, PunchDialogDelegate> {
 	NSFetchedResultsController *fetchedResultsController;
 	NSManagedObjectContext *managedObjectContext;	    
 	NSManagedObjectContext *addingManagedObjectContext;
@@ -21,6 +22,7 @@
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) NSManagedObjectContext *addingManagedObjectContext;
 
+- (void)displayPunchDialogWithEntry:(TimeEntry *)entry;
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 - (void)addClient;
 - (void)saveState;

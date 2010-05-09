@@ -31,6 +31,8 @@
 			self.inTime = [NSDate date];
 			break;
 		case TimeEntryStateShiftBegun:
+		case TimeEntryStateBreakBegun:
+		case TimeEntryStateBreakEnded:
 			self.outTime = [NSDate date];
 			break;
 		default:
@@ -39,17 +41,30 @@
 	}
 }
 
-- (void)punchBreak {	
+- (void)punchBreak:(NSManagedObjectContext *)managedObjectContext {	
+	Break *breakEntry = nil;
 	switch (self.currentState) {
 		case TimeEntryStateShiftBegun:
+		case TimeEntryStateBreakEnded:
 			//start new break entry
+			breakEntry = (Break *)[NSEntityDescription insertNewObjectForEntityForName:@"Break" inManagedObjectContext:managedObjectContext];
+			[breakEntry startBreak];
+			[self addBreaksObject:breakEntry];
 			break;
 		case TimeEntryStateBreakBegun:
-			//end break entry
+			breakEntry = (Break *)[[self.breaks allObjects] objectAtIndex:0];
+			[breakEntry endBreak];
 			break;
 		default:
 			//do nothing
-			break;
+			return;
+	}
+	
+	NSError *error;
+	if (![managedObjectContext save:&error]) {
+		// Update to handle the error appropriately.
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+		exit(-1);  // Fail
 	}
 }
 

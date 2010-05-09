@@ -16,6 +16,9 @@
 @property (nonatomic, retain) NSDate * outTime;
 @property (nonatomic, retain) NSDate * inTime;
 
+- (void)startBreak;
+- (void)endBreak;
+
 @end
 
 

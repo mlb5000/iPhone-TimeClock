@@ -23,9 +23,9 @@
 	
 	//Add Time list tab
 	TimeListViewController *timeList = [[TimeListViewController alloc] init];
-	timeList.managedObjectContext = self.managedObjectContext;
 	timeList.title = @"TimeClock";
-	timeList.tabBarItem.image = [UIImage imageNamed:@"clock.jpg"];
+	timeList.tabBarItem.image = [UIImage imageNamed:@"clock.png"];
+	timeList.managedObjectContext = self.managedObjectContext;
 	UINavigationController *navController = [[UINavigationController alloc] init];
 	[navController pushViewController:timeList animated:NO];	
 	[timeList release];
@@ -34,6 +34,7 @@
 	ClientListViewController *clientList = [[ClientListViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	clientList.managedObjectContext = self.managedObjectContext;
 	clientList.title = @"Clients";
+	clientList.tabBarItem.image = [UIImage imageNamed:@"group.png"];
 	UINavigationController *clientNavController = [[UINavigationController alloc] init];
 	[clientNavController pushViewController:clientList animated:NO];
 	[clientList release];

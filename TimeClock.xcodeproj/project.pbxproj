@@ -25,12 +25,15 @@
 		774017FE10803BA000DB5136 /* EditingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774017FD10803BA000DB5136 /* EditingView.xib */; };
 		7740180210803CBF00DB5136 /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740180110803CBF00DB5136 /* EditingViewController.m */; };
 		7740191F10804BBA00DB5136 /* TimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740191E10804BBA00DB5136 /* TimeDetailViewController.m */; };
-		774019D810805C7600DB5136 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 774019D710805C7600DB5136 /* clock.png */; };
 		77401A1C1080E2CA00DB5136 /* Break.m in Sources */ = {isa = PBXBuildFile; fileRef = 77401A1B1080E2CA00DB5136 /* Break.m */; };
+		776AC2F310893E40001BB18C /* PunchDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 776AC2F110893E40001BB18C /* PunchDialog.m */; };
+		776AC2F410893E40001BB18C /* PunchDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 776AC2F210893E40001BB18C /* PunchDialog.xib */; };
 		77A9DF7910840F2800279E72 /* dotNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A9DF7810840F2800279E72 /* dotNormal.png */; };
 		77BBD31C107E7155005936BA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD318107E7155005936BA /* Client.m */; };
 		77BBD535107EBA81005936BA /* TimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BBD533107EBA81005936BA /* TimeListViewController.m */; };
 		77BBD55D107EBFE3005936BA /* TimeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BBD55C107EBFE3005936BA /* TimeListViewController.xib */; };
+		77EA34971195EA4200FCB314 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EA34961195EA4200FCB314 /* clock.png */; };
+		77EA34C711973D3900FCB314 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EA34C611973D3900FCB314 /* group.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,15 +64,19 @@
 		7740180110803CBF00DB5136 /* EditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
 		7740191D10804BBA00DB5136 /* TimeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDetailViewController.h; sourceTree = "<group>"; };
 		7740191E10804BBA00DB5136 /* TimeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDetailViewController.m; sourceTree = "<group>"; };
-		774019D710805C7600DB5136 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		77401A1A1080E2CA00DB5136 /* Break.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Break.h; sourceTree = "<group>"; };
 		77401A1B1080E2CA00DB5136 /* Break.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Break.m; sourceTree = "<group>"; };
+		776AC2F010893E40001BB18C /* PunchDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PunchDialog.h; sourceTree = "<group>"; };
+		776AC2F110893E40001BB18C /* PunchDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PunchDialog.m; sourceTree = "<group>"; };
+		776AC2F210893E40001BB18C /* PunchDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PunchDialog.xib; sourceTree = "<group>"; };
 		77A9DF7810840F2800279E72 /* dotNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotNormal.png; sourceTree = "<group>"; };
 		77BBD317107E7155005936BA /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		77BBD318107E7155005936BA /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
 		77BBD532107EBA81005936BA /* TimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeListViewController.h; sourceTree = "<group>"; };
 		77BBD533107EBA81005936BA /* TimeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeListViewController.m; sourceTree = "<group>"; };
 		77BBD55C107EBFE3005936BA /* TimeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeListViewController.xib; sourceTree = "<group>"; };
+		77EA34961195EA4200FCB314 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		77EA34C611973D3900FCB314 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TimeClock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimeClock-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,8 +143,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				77EA34C611973D3900FCB314 /* group.png */,
+				77EA34961195EA4200FCB314 /* clock.png */,
+				776AC2F210893E40001BB18C /* PunchDialog.xib */,
 				77A9DF7810840F2800279E72 /* dotNormal.png */,
-				774019D710805C7600DB5136 /* clock.png */,
 				77401710108027AC00DB5136 /* AddClientViewController.xib */,
 				774016961080196400DB5136 /* ClientListViewController.xib */,
 				28C3AD890F43EF2300507BA6 /* TimeClock.xcdatamodel */,
@@ -194,6 +203,8 @@
 				774017F6108038BC00DB5136 /* ClientDetailViewController.m */,
 				7740180010803CBF00DB5136 /* EditingViewController.h */,
 				7740180110803CBF00DB5136 /* EditingViewController.m */,
+				776AC2F010893E40001BB18C /* PunchDialog.h */,
+				776AC2F110893E40001BB18C /* PunchDialog.m */,
 			);
 			name = "Client Controllers";
 			sourceTree = "<group>";
@@ -253,8 +264,10 @@
 				77401712108027AC00DB5136 /* AddClientViewController.xib in Resources */,
 				774017FC10803B0400DB5136 /* Localizable.strings in Resources */,
 				774017FE10803BA000DB5136 /* EditingView.xib in Resources */,
-				774019D810805C7600DB5136 /* clock.png in Resources */,
 				77A9DF7910840F2800279E72 /* dotNormal.png in Resources */,
+				776AC2F410893E40001BB18C /* PunchDialog.xib in Resources */,
+				77EA34971195EA4200FCB314 /* clock.png in Resources */,
+				77EA34C711973D3900FCB314 /* group.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +290,7 @@
 				7740180210803CBF00DB5136 /* EditingViewController.m in Sources */,
 				7740191F10804BBA00DB5136 /* TimeDetailViewController.m in Sources */,
 				77401A1C1080E2CA00DB5136 /* Break.m in Sources */,
+				776AC2F310893E40001BB18C /* PunchDialog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
